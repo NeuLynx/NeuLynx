@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2BD7EFB1A95C3A700035453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BD7EFA1A95C3A700035453 /* AppDelegate.swift */; };
+		F2BD7EFE1A95C3A700035453 /* NeuLynx.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2BD7EFC1A95C3A700035453 /* NeuLynx.xcdatamodeld */; };
+		F2BD7F001A95C3A700035453 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BD7EFF1A95C3A700035453 /* ViewController.swift */; };
+		F2BD7F031A95C3A700035453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BD7F011A95C3A700035453 /* Main.storyboard */; };
+		F2BD7F051A95C3A700035453 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BD7F041A95C3A700035453 /* Images.xcassets */; };
+		F2BD7F081A95C3A700035453 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2BD7F061A95C3A700035453 /* LaunchScreen.xib */; };
+		F2BD7F141A95C3A700035453 /* NeuLynxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BD7F131A95C3A700035453 /* NeuLynxTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2BD7F0E1A95C3A700035453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2BD7EED1A95C3A600035453 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2BD7EF41A95C3A600035453;
+			remoteInfo = NeuLynx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2BD7EF51A95C3A700035453 /* NeuLynx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuLynx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BD7EF91A95C3A700035453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2BD7EFA1A95C3A700035453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2BD7EFD1A95C3A700035453 /* NeuLynx.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NeuLynx.xcdatamodel; sourceTree = "<group>"; };
+		F2BD7EFF1A95C3A700035453 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2BD7F021A95C3A700035453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2BD7F041A95C3A700035453 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F2BD7F071A95C3A700035453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F2BD7F0D1A95C3A700035453 /* NeuLynxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuLynxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BD7F121A95C3A700035453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2BD7F131A95C3A700035453 /* NeuLynxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuLynxTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2BD7EF21A95C3A600035453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BD7F0A1A95C3A700035453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2BD7EEC1A95C3A600035453 = {
+			isa = PBXGroup;
+			children = (
+				F2BD7EF71A95C3A700035453 /* NeuLynx */,
+				F2BD7F101A95C3A700035453 /* NeuLynxTests */,
+				F2BD7EF61A95C3A700035453 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2BD7EF61A95C3A700035453 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2BD7EF51A95C3A700035453 /* NeuLynx.app */,
+				F2BD7F0D1A95C3A700035453 /* NeuLynxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2BD7EF71A95C3A700035453 /* NeuLynx */ = {
+			isa = PBXGroup;
+			children = (
+				F2BD7EFA1A95C3A700035453 /* AppDelegate.swift */,
+				F2BD7EFF1A95C3A700035453 /* ViewController.swift */,
+				F2BD7F011A95C3A700035453 /* Main.storyboard */,
+				F2BD7F041A95C3A700035453 /* Images.xcassets */,
+				F2BD7F061A95C3A700035453 /* LaunchScreen.xib */,
+				F2BD7EFC1A95C3A700035453 /* NeuLynx.xcdatamodeld */,
+				F2BD7EF81A95C3A700035453 /* Supporting Files */,
+			);
+			path = NeuLynx;
+			sourceTree = "<group>";
+		};
+		F2BD7EF81A95C3A700035453 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2BD7EF91A95C3A700035453 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2BD7F101A95C3A700035453 /* NeuLynxTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2BD7F131A95C3A700035453 /* NeuLynxTests.swift */,
+				F2BD7F111A95C3A700035453 /* Supporting Files */,
+			);
+			path = NeuLynxTests;
+			sourceTree = "<group>";
+		};
+		F2BD7F111A95C3A700035453 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2BD7F121A95C3A700035453 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2BD7EF41A95C3A600035453 /* NeuLynx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2BD7F171A95C3A700035453 /* Build configuration list for PBXNativeTarget "NeuLynx" */;
+			buildPhases = (
+				F2BD7EF11A95C3A600035453 /* Sources */,
+				F2BD7EF21A95C3A600035453 /* Frameworks */,
+				F2BD7EF31A95C3A600035453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeuLynx;
+			productName = NeuLynx;
+			productReference = F2BD7EF51A95C3A700035453 /* NeuLynx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2BD7F0C1A95C3A700035453 /* NeuLynxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2BD7F1A1A95C3A700035453 /* Build configuration list for PBXNativeTarget "NeuLynxTests" */;
+			buildPhases = (
+				F2BD7F091A95C3A700035453 /* Sources */,
+				F2BD7F0A1A95C3A700035453 /* Frameworks */,
+				F2BD7F0B1A95C3A700035453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2BD7F0F1A95C3A700035453 /* PBXTargetDependency */,
+			);
+			name = NeuLynxTests;
+			productName = NeuLynxTests;
+			productReference = F2BD7F0D1A95C3A700035453 /* NeuLynxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2BD7EED1A95C3A600035453 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = NeuLynx;
+				TargetAttributes = {
+					F2BD7EF41A95C3A600035453 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F2BD7F0C1A95C3A700035453 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F2BD7EF41A95C3A600035453;
+					};
+				};
+			};
+			buildConfigurationList = F2BD7EF01A95C3A600035453 /* Build configuration list for PBXProject "NeuLynx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2BD7EEC1A95C3A600035453;
+			productRefGroup = F2BD7EF61A95C3A700035453 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2BD7EF41A95C3A600035453 /* NeuLynx */,
+				F2BD7F0C1A95C3A700035453 /* NeuLynxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2BD7EF31A95C3A600035453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BD7F031A95C3A700035453 /* Main.storyboard in Resources */,
+				F2BD7F081A95C3A700035453 /* LaunchScreen.xib in Resources */,
+				F2BD7F051A95C3A700035453 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BD7F0B1A95C3A700035453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2BD7EF11A95C3A600035453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BD7F001A95C3A700035453 /* ViewController.swift in Sources */,
+				F2BD7EFB1A95C3A700035453 /* AppDelegate.swift in Sources */,
+				F2BD7EFE1A95C3A700035453 /* NeuLynx.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BD7F091A95C3A700035453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BD7F141A95C3A700035453 /* NeuLynxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2BD7F0F1A95C3A700035453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2BD7EF41A95C3A600035453 /* NeuLynx */;
+			targetProxy = F2BD7F0E1A95C3A700035453 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2BD7F011A95C3A700035453 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2BD7F021A95C3A700035453 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2BD7F061A95C3A700035453 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2BD7F071A95C3A700035453 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2BD7F151A95C3A700035453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2BD7F161A95C3A700035453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2BD7F181A95C3A700035453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NeuLynx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2BD7F191A95C3A700035453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NeuLynx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F2BD7F1B1A95C3A700035453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NeuLynxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuLynx.app/NeuLynx";
+			};
+			name = Debug;
+		};
+		F2BD7F1C1A95C3A700035453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NeuLynxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuLynx.app/NeuLynx";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2BD7EF01A95C3A600035453 /* Build configuration list for PBXProject "NeuLynx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BD7F151A95C3A700035453 /* Debug */,
+				F2BD7F161A95C3A700035453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2BD7F171A95C3A700035453 /* Build configuration list for PBXNativeTarget "NeuLynx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BD7F181A95C3A700035453 /* Debug */,
+				F2BD7F191A95C3A700035453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2BD7F1A1A95C3A700035453 /* Build configuration list for PBXNativeTarget "NeuLynxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BD7F1B1A95C3A700035453 /* Debug */,
+				F2BD7F1C1A95C3A700035453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2BD7EFC1A95C3A700035453 /* NeuLynx.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2BD7EFD1A95C3A700035453 /* NeuLynx.xcdatamodel */,
+			);
+			currentVersion = F2BD7EFD1A95C3A700035453 /* NeuLynx.xcdatamodel */;
+			path = NeuLynx.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F2BD7EED1A95C3A600035453 /* Project object */;
+}
