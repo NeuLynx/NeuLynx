@@ -25,6 +25,7 @@
 		F2BD7F311A95C66D00035453 /* NeuLynx152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BD7F261A95C66D00035453 /* NeuLynx152x152.png */; };
 		F2BD7F321A95C66D00035453 /* NeuLynx180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BD7F271A95C66D00035453 /* NeuLynx180x180.png */; };
 		F2BD7F331A95C66D00035453 /* NeuLynxIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BD7F281A95C66D00035453 /* NeuLynxIcon.png */; };
+		F2BD7F351A95CCB100035453 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BD7F341A95CCB000035453 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		F2BD7F261A95C66D00035453 /* NeuLynx152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NeuLynx152x152.png; path = ../../../Dropbox/iOSNeuLynxItems/NeuLynx152x152.png; sourceTree = "<group>"; };
 		F2BD7F271A95C66D00035453 /* NeuLynx180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NeuLynx180x180.png; path = ../../../Dropbox/iOSNeuLynxItems/NeuLynx180x180.png; sourceTree = "<group>"; };
 		F2BD7F281A95C66D00035453 /* NeuLynxIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NeuLynxIcon.png; path = ../../../Dropbox/iOSNeuLynxItems/NeuLynxIcon.png; sourceTree = "<group>"; };
+		F2BD7F341A95CCB000035453 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		F2BD7F361A95CDD300035453 /* NeuLynx-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NeuLynx-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2BD7F351A95CCB100035453 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +87,9 @@
 		F2BD7EEC1A95C3A600035453 = {
 			isa = PBXGroup;
 			children = (
+				F2BD7F341A95CCB000035453 /* FacebookSDK.framework */,
 				F2BD7EF71A95C3A700035453 /* NeuLynx */,
+				F2BD7F361A95CDD300035453 /* NeuLynx-Bridging-Header.h */,
 				F2BD7F1D1A95C64700035453 /* Images */,
 				F2BD7F101A95C3A700035453 /* NeuLynxTests */,
 				F2BD7EF61A95C3A700035453 /* Products */,
@@ -394,9 +400,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NeuLynx/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NeuLynx-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -404,9 +417,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NeuLynx/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NeuLynx-Bridging-Header.h";
 			};
 			name = Release;
 		};
