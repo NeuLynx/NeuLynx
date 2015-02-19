@@ -40,6 +40,7 @@
 		F2BD7F501A95D0EC00035453 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BD7F4F1A95D0EC00035453 /* SystemConfiguration.framework */; };
 		F2BD7F521A95D0F600035453 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BD7F511A95D0F600035453 /* libz.dylib */; };
 		F2BD7F541A95D10000035453 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BD7F531A95D10000035453 /* libsqlite3.dylib */; };
+		F2BD7F561A95DD5200035453 /* launchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BD7F551A95DD5200035453 /* launchScreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		F2BD7F4F1A95D0EC00035453 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F2BD7F511A95D0F600035453 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		F2BD7F531A95D10000035453 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F2BD7F551A95DD5200035453 /* launchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchScreen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +205,7 @@
 		F2BD7F1D1A95C64700035453 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F2BD7F551A95DD5200035453 /* launchScreen.png */,
 				F2BD7F1E1A95C66D00035453 /* NeuLynx29x29.png */,
 				F2BD7F1F1A95C66D00035453 /* NeuLynx40x40.png */,
 				F2BD7F201A95C66D00035453 /* NeuLynx58x58.png */,
@@ -300,6 +303,7 @@
 			files = (
 				F2BD7F301A95C66D00035453 /* NeuLynx120x120.png in Resources */,
 				F2BD7F2F1A95C66D00035453 /* NeuLynx87x87.png in Resources */,
+				F2BD7F561A95DD5200035453 /* launchScreen.png in Resources */,
 				F2BD7F2D1A95C66D00035453 /* NeuLynx76x76.png in Resources */,
 				F2BD7F2E1A95C66D00035453 /* NeuLynx80x80.png in Resources */,
 				F2BD7F291A95C66D00035453 /* NeuLynx29x29.png in Resources */,
