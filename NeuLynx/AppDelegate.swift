@@ -29,6 +29,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
      func application(application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: NSData) {
+        //this code registers the devise on parse. 
+        var currentInstallation: PFInstallation = PFInstallation.currentInstallation()
+        currentInstallation.setDeviceTokenFromData(deviceToken)
+        currentInstallation.save()
+        
         println("success")
     }
     func application(application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: NSError) {

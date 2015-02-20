@@ -12,6 +12,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        //push notification 
+        var push = PFPush()
+        push.setMessage("Yasss Bitch!")
+        push.sendPushInBackgroundWithBlock({
+            (isSuccessful: Bool!, error: NSError!) -> Void in
+            
+        println(isSuccessful)
+    })
+    
         // Do any additional setup after loading the view, typically from a nib.
         
         var permissions = ["public_profile", "email"]
