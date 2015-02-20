@@ -21,7 +21,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //Initialize Facebook
         PFFacebookUtils.initializeFacebook()
         
+        var pushSettings: UIUserNotificationSettings = UIUserNotificationSettings(forTypes: .Alert, categories: nil)
+        
+        application.registerUserNotificationSettings(pushSettings)
+        application.registerForRemoteNotifications()
+        
         return true
+    }
+     func application(application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: NSData) {
+        println("success")
+    }
+    func application(application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: NSError) {
+        println("fail")
     }
 
     func applicationWillResignActive(application: UIApplication) {
