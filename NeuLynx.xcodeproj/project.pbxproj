@@ -13,6 +13,13 @@
 		F23D532D1A95E56900B22736 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D53271A95E56900B22736 /* 3.png */; };
 		F23D532E1A95E56900B22736 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D53281A95E56900B22736 /* 4.png */; };
 		F23D532F1A95E56900B22736 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D53291A95E56900B22736 /* 5.png */; };
+		F23D53311A97F08B00B22736 /* cityBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D53301A97F08B00B22736 /* cityBackground.png */; };
+		F23D53331A97F21900B22736 /* NeulynxLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D53321A97F21900B22736 /* NeulynxLogo.png */; };
+		F23D53351A97FA7000B22736 /* Slongan.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D53341A97FA7000B22736 /* Slongan.png */; };
+		F23D53371A97FB4A00B22736 /* FeelLikeALocalLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D53361A97FB4A00B22736 /* FeelLikeALocalLogo.png */; };
+		F23D53391A980BDE00B22736 /* RegisterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D53381A980BDE00B22736 /* RegisterButton.png */; };
+		F23D533B1A980BE700B22736 /* LoginButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D533A1A980BE700B22736 /* LoginButton.png */; };
+		F23D533D1A980C4E00B22736 /* FacebookButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D533C1A980C4E00B22736 /* FacebookButton.png */; };
 		F2BD7EFB1A95C3A700035453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BD7EFA1A95C3A700035453 /* AppDelegate.swift */; };
 		F2BD7EFE1A95C3A700035453 /* NeuLynx.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2BD7EFC1A95C3A700035453 /* NeuLynx.xcdatamodeld */; };
 		F2BD7F001A95C3A700035453 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BD7EFF1A95C3A700035453 /* ViewController.swift */; };
@@ -66,6 +73,13 @@
 		F23D53271A95E56900B22736 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		F23D53281A95E56900B22736 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 		F23D53291A95E56900B22736 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		F23D53301A97F08B00B22736 /* cityBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cityBackground.png; sourceTree = "<group>"; };
+		F23D53321A97F21900B22736 /* NeulynxLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NeulynxLogo.png; sourceTree = "<group>"; };
+		F23D53341A97FA7000B22736 /* Slongan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slongan.png; sourceTree = "<group>"; };
+		F23D53361A97FB4A00B22736 /* FeelLikeALocalLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FeelLikeALocalLogo.png; sourceTree = "<group>"; };
+		F23D53381A980BDE00B22736 /* RegisterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RegisterButton.png; sourceTree = "<group>"; };
+		F23D533A1A980BE700B22736 /* LoginButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginButton.png; sourceTree = "<group>"; };
+		F23D533C1A980C4E00B22736 /* FacebookButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FacebookButton.png; sourceTree = "<group>"; };
 		F2BD7EF51A95C3A700035453 /* NeuLynx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuLynx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BD7EF91A95C3A700035453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2BD7EFA1A95C3A700035453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -223,7 +237,13 @@
 				F23D53271A95E56900B22736 /* 3.png */,
 				F23D53281A95E56900B22736 /* 4.png */,
 				F23D53291A95E56900B22736 /* 5.png */,
+				F23D53381A980BDE00B22736 /* RegisterButton.png */,
+				F23D533A1A980BE700B22736 /* LoginButton.png */,
+				F23D533C1A980C4E00B22736 /* FacebookButton.png */,
+				F23D53341A97FA7000B22736 /* Slongan.png */,
+				F23D53361A97FB4A00B22736 /* FeelLikeALocalLogo.png */,
 				F2BD7F551A95DD5200035453 /* launchScreen.png */,
+				F23D53321A97F21900B22736 /* NeulynxLogo.png */,
 				F2BD7F1E1A95C66D00035453 /* NeuLynx29x29.png */,
 				F2BD7F1F1A95C66D00035453 /* NeuLynx40x40.png */,
 				F2BD7F201A95C66D00035453 /* NeuLynx58x58.png */,
@@ -235,6 +255,7 @@
 				F2BD7F261A95C66D00035453 /* NeuLynx152x152.png */,
 				F2BD7F271A95C66D00035453 /* NeuLynx180x180.png */,
 				F2BD7F281A95C66D00035453 /* NeuLynxIcon.png */,
+				F23D53301A97F08B00B22736 /* cityBackground.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -323,17 +344,24 @@
 				F2BD7F301A95C66D00035453 /* NeuLynx120x120.png in Resources */,
 				F23D532B1A95E56900B22736 /* 1.png in Resources */,
 				F2BD7F2F1A95C66D00035453 /* NeuLynx87x87.png in Resources */,
+				F23D533D1A980C4E00B22736 /* FacebookButton.png in Resources */,
+				F23D53371A97FB4A00B22736 /* FeelLikeALocalLogo.png in Resources */,
 				F2BD7F561A95DD5200035453 /* launchScreen.png in Resources */,
 				F2BD7F2D1A95C66D00035453 /* NeuLynx76x76.png in Resources */,
 				F23D532D1A95E56900B22736 /* 3.png in Resources */,
+				F23D533B1A980BE700B22736 /* LoginButton.png in Resources */,
 				F2BD7F2E1A95C66D00035453 /* NeuLynx80x80.png in Resources */,
 				F23D532C1A95E56900B22736 /* 2.png in Resources */,
+				F23D53311A97F08B00B22736 /* cityBackground.png in Resources */,
 				F23D532E1A95E56900B22736 /* 4.png in Resources */,
 				F2BD7F291A95C66D00035453 /* NeuLynx29x29.png in Resources */,
 				F2BD7F2C1A95C66D00035453 /* NeuLynx60x60.png in Resources */,
 				F2BD7F031A95C3A700035453 /* Main.storyboard in Resources */,
 				F23D532A1A95E56900B22736 /* 0.png in Resources */,
+				F23D53331A97F21900B22736 /* NeulynxLogo.png in Resources */,
+				F23D53391A980BDE00B22736 /* RegisterButton.png in Resources */,
 				F2BD7F2B1A95C66D00035453 /* NeuLynx58x58.png in Resources */,
+				F23D53351A97FA7000B22736 /* Slongan.png in Resources */,
 				F2BD7F331A95C66D00035453 /* NeuLynxIcon.png in Resources */,
 				F2BD7F311A95C66D00035453 /* NeuLynx152x152.png in Resources */,
 				F2BD7F081A95C3A700035453 /* LaunchScreen.xib in Resources */,
