@@ -24,11 +24,11 @@
                                     <constraint firstAttribute="width" constant="414" id="tRO-hl-cOZ"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NeulynxLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="cNv-ea-k68">
-                                <rect key="frame" x="107.5" y="20" width="200" height="200"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Slongan.png" translatesAutoresizingMaskIntoConstraints="NO" id="a8w-n4-irg">
+                                <rect key="frame" x="47" y="293" width="320" height="200"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="C2W-HD-RDy"/>
-                                    <constraint firstAttribute="width" constant="200" id="Hcc-qX-jB3"/>
+                                    <constraint firstAttribute="width" constant="320" id="Mdm-ad-Zvi"/>
+                                    <constraint firstAttribute="height" constant="200" id="XSW-ZT-XJb"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ouw-Tb-2mt">
@@ -104,11 +104,21 @@
                                     <action selector="registeredButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k1M-In-kk0"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Slongan.png" translatesAutoresizingMaskIntoConstraints="NO" id="a8w-n4-irg">
-                                <rect key="frame" x="47" y="293" width="320" height="200"/>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The login was unsuccessful, please try again" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wDS-cf-zZd">
+                                <rect key="frame" x="47" y="228" width="320" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="320" id="Mdm-ad-Zvi"/>
-                                    <constraint firstAttribute="height" constant="200" id="XSW-ZT-XJb"/>
+                                    <constraint firstAttribute="height" constant="21" id="Fyz-mf-rNH"/>
+                                    <constraint firstAttribute="width" constant="320" id="dFP-cU-rVd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NeulynxLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="cNv-ea-k68">
+                                <rect key="frame" x="107" y="20" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="C2W-HD-RDy"/>
+                                    <constraint firstAttribute="width" constant="200" id="Hcc-qX-jB3"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -132,8 +142,10 @@
                             <constraint firstItem="cNv-ea-k68" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="aJK-55-kW9"/>
                             <constraint firstItem="Fw9-2r-mNw" firstAttribute="leading" secondItem="WTi-Df-mVk" secondAttribute="trailing" constant="80" id="b8n-ib-Oby"/>
                             <constraint firstItem="Fw9-2r-mNw" firstAttribute="leading" secondItem="WTi-Df-mVk" secondAttribute="trailing" constant="80" id="eOk-Th-s6I"/>
+                            <constraint firstAttribute="centerX" secondItem="wDS-cf-zZd" secondAttribute="centerX" id="fKw-5w-Ite"/>
                             <constraint firstItem="bV5-HI-8jh" firstAttribute="top" secondItem="WTi-Df-mVk" secondAttribute="bottom" constant="15" id="gMj-3Z-PJX"/>
                             <constraint firstAttribute="centerX" secondItem="ouw-Tb-2mt" secondAttribute="centerX" id="hkA-rP-hOz"/>
+                            <constraint firstItem="wDS-cf-zZd" firstAttribute="top" secondItem="cNv-ea-k68" secondAttribute="bottom" constant="8" id="jog-bs-e8m"/>
                             <constraint firstAttribute="centerY" secondItem="zm0-Vb-302" secondAttribute="centerY" id="oT8-SG-9ep"/>
                             <constraint firstItem="a8w-n4-irg" firstAttribute="top" secondItem="cNv-ea-k68" secondAttribute="bottom" constant="30" id="pjn-7H-KHb"/>
                             <constraint firstItem="bV5-HI-8jh" firstAttribute="top" secondItem="Fw9-2r-mNw" secondAttribute="bottom" constant="15" id="wKY-cZ-Umc"/>
@@ -156,9 +168,46 @@
                         </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="unsuccessfulloginlabel" destination="wDS-cf-zZd" id="mAm-wH-nCU"/>
+                        <segue destination="yvO-hQ-1zI" kind="show" identifier="jumpToUserProfile" id="pTX-1M-0Ru"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--User Profile Screen-->
+        <scene sceneID="Bzi-y4-g36">
+            <objects>
+                <viewController title="User Profile Screen" id="yvO-hQ-1zI" customClass="UserProfileViewController" customModule="NeuLynx" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fzb-nq-psQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ioa-Ef-3G7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kyw-Gh-XDg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="EAn-4r-FyQ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="m4W-sD-myT"/>
+                                    <constraint firstAttribute="height" constant="736" id="qgv-Ey-Tfd"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="EAn-4r-FyQ" secondAttribute="centerX" id="L3N-Mb-pqT"/>
+                            <constraint firstAttribute="centerY" secondItem="EAn-4r-FyQ" secondAttribute="centerY" id="LVS-r2-0in"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eqy-yO-XxX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1103" y="203"/>
         </scene>
     </scenes>
     <resources>
@@ -167,6 +216,7 @@
         <image name="NeulynxLogo.png" width="2083" height="2083"/>
         <image name="RegisterButton.png" width="350" height="166"/>
         <image name="Slongan.png" width="425" height="129"/>
+        <image name="backBackground.png" width="750" height="1334"/>
         <image name="cityBackground.png" width="1242" height="2208"/>
     </resources>
 </document>
