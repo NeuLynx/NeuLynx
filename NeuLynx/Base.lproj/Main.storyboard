@@ -177,6 +177,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="542" y="216"/>
         </scene>
         <!--Sign Up Screen-->
         <scene sceneID="acl-b6-XxP">
@@ -293,7 +294,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="nextButtonPressed:" destination="Hfj-0B-d0Z" eventType="touchUpInside" id="5Fv-9A-LIx"/>
+                                    <action selector="nextButtonPressed:" destination="Hfj-0B-d0Z" eventType="touchUpInside" id="iq1-Cc-peR"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NeulynxLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="dmB-w3-TIg">
@@ -343,7 +344,9 @@
                         <outlet property="confirmPassword" destination="A0d-xG-wUz" id="oZi-vV-VMb"/>
                         <outlet property="email" destination="sGV-9U-ak8" id="tUX-bh-bq2"/>
                         <outlet property="password" destination="9FP-oH-Rkb" id="K8W-Pn-e0z"/>
-                        <segue destination="yvO-hQ-1zI" kind="show" identifier="jumpToUserProfile" id="KZf-BJ-xqf"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="backToFirstScreen" id="Oqd-UJ-VDS"/>
+                        <segue destination="Uz0-Tp-rmn" kind="show" identifier="jumpToLanguages" id="uBY-qj-7RV"/>
+                        <segue destination="yvO-hQ-1zI" kind="show" identifier="jumpToUserProfile" id="lJo-nV-1D2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yzB-YF-4Hl" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -508,11 +511,13 @@
                     <connections>
                         <outlet property="password" destination="1oe-cR-BI8" id="VGC-6m-8Ly"/>
                         <outlet property="username" destination="hgP-O5-nbe" id="GB1-oP-9hD"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="backToFirstScreen" id="Q3T-xM-hgY"/>
+                        <segue destination="MA8-LB-ro9" kind="show" identifier="jumpToMap" id="lHT-bh-jnV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QiQ-et-B16" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="555" y="1672"/>
+            <point key="canvasLocation" x="85" y="1050"/>
         </scene>
         <!--User Profile Screen-->
         <scene sceneID="Bzi-y4-g36">
@@ -637,7 +642,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="editLanguagesButtonPressed:" destination="yvO-hQ-1zI" eventType="touchUpInside" id="f5w-mi-5ys"/>
+                                    <action selector="editLanguagesButtonPressed:" destination="yvO-hQ-1zI" eventType="touchUpInside" id="1Sa-xa-KHg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Tw-7s-ZS0">
@@ -1115,22 +1120,20 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <outlet property="editLanguagesButtonPressed" destination="LtO-dI-dDy" id="fVk-ZV-6Xa"/>
-                        <outlet property="editNameButtonPressed" destination="tE7-pg-sTS" id="Aml-7L-yal"/>
                         <outlet property="fact1Label" destination="lHj-7h-ibQ" id="GF9-pe-zGK"/>
                         <outlet property="fact2Label" destination="v38-J0-Ia6" id="GqU-9a-tll"/>
                         <outlet property="genderLabel" destination="dTL-QT-cBV" id="czc-Ik-dMg"/>
-                        <outlet property="languagesLabel" destination="GGV-KM-IYx" id="VmU-M0-MSU"/>
+                        <outlet property="languagesLabel" destination="GGV-KM-IYx" id="AdQ-t0-moE"/>
                         <outlet property="nameLabel" destination="ZrQ-Qw-E9w" id="NuX-Ap-4aU"/>
                         <outlet property="orientationLabel" destination="ADl-5y-4rb" id="ai2-Yg-7GV"/>
                         <outlet property="personalityLabel" destination="7Js-AZ-jPV" id="RGS-fz-T1B"/>
-                        <segue destination="Uz0-Tp-rmn" kind="show" identifier="jumpToLanguages" id="Bdq-ij-d8V"/>
                         <segue destination="MA8-LB-ro9" kind="show" identifier="jumpToMap" id="hUE-wY-1W3"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="jumpBackToFirstScreen" id="JFZ-h8-RFJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eqy-yO-XxX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1731" y="264"/>
+            <point key="canvasLocation" x="1318" y="96"/>
         </scene>
         <!--Map-->
         <scene sceneID="fHi-RS-uuq">
@@ -1198,7 +1201,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Cx-53-a9F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2447" y="249"/>
+            <point key="canvasLocation" x="1359" y="1145"/>
         </scene>
         <!--Languages Table-->
         <scene sceneID="3kp-Tv-oL8">
@@ -1225,7 +1228,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bir-nN-wte" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1848" y="-729"/>
+            <point key="canvasLocation" x="1703" y="-770"/>
         </scene>
     </scenes>
     <resources>
@@ -1244,6 +1247,8 @@
         <image name="or.png" width="1122" height="22"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="KZf-BJ-xqf"/>
+        <segue reference="JFZ-h8-RFJ"/>
+        <segue reference="lJo-nV-1D2"/>
+        <segue reference="hUE-wY-1W3"/>
     </inferredMetricsTieBreakers>
 </document>

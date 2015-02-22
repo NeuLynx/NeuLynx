@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     
     @IBAction func loginButtonPressed(sender: AnyObject) {
         
+        self.performSegueWithIdentifier("jumpToLoginScreen", sender: self)
+        
        /*     var loginAlert:UIAlertController = UIAlertController(title: "Sign Up / Login", message: "Please sign up or login", preferredStyle: UIAlertControllerStyle.Alert)
             
             loginAlert.addTextFieldWithConfigurationHandler({
@@ -86,7 +88,7 @@ class ViewController: UIViewController {
 
     @IBAction func registeredButtonPressed(sender: AnyObject) {
         
-     
+     self.performSegueWithIdentifier("jumpToRegisterScreen", sender: self)
     
     
     }

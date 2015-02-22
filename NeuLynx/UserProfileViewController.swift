@@ -17,6 +17,7 @@ class UserProfileViewController: UIViewController {
    
 
     @IBOutlet weak var personalityLabel: UILabel!
+  
     @IBOutlet weak var languagesLabel: UILabel!
     
     @IBOutlet weak var fact1Label: UILabel!
@@ -40,6 +41,7 @@ class UserProfileViewController: UIViewController {
     @IBAction func editPersonalityButtonPressed(sender: AnyObject) {
     }
    
+   
     @IBAction func editLanguagesButtonPressed(sender: AnyObject) {
     }
     
@@ -50,9 +52,11 @@ class UserProfileViewController: UIViewController {
     }
   
     @IBAction func cancelButtonPressed(sender: AnyObject) {
+        self.performSegueWithIdentifier("jumpBackToFirstScreen", sender: self)
     }
 
     @IBAction func nextButtonPressed(sender: AnyObject) {
+        self.performSegueWithIdentifier("jumpToMap", sender: self)
     }
     
     

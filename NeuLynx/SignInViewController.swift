@@ -15,10 +15,14 @@ class SignInViewController: UIViewController {
     @IBAction func FBLoginButtonPressed(sender: AnyObject) {
     }
     @IBAction func cancelButtonPressed(sender: AnyObject) {
+        self.performSegueWithIdentifier("backToFirstScreen", sender: self)
     }
     @IBAction func forgotPasswordButtonPressed(sender: AnyObject) {
     }
     @IBAction func nextButtonPressed(sender: AnyObject) {
+        self.performSegueWithIdentifier("jumpToMap", sender: self)
+        
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -18,9 +18,13 @@ class SignUpViewController: UIViewController {
     }
     
     @IBAction func cancelButtonPressed(sender: AnyObject) {
+        self.performSegueWithIdentifier("backToFirstScreen", sender: self)
     }
     @IBAction func nextButtonPressed(sender: AnyObject) {
+        self.performSegueWithIdentifier("jumpToUserProfile", sender: self)
+        
     }
+  
     override func viewDidLoad() {
         super.viewDidLoad()
 
