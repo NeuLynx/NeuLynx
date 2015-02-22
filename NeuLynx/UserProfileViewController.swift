@@ -10,7 +10,7 @@ import UIKit
 
 class UserProfileViewController: UIViewController {
     
-    @IBOutlet weak var defaultImage: UIImageView!
+    @IBOutlet weak var profilePicture: UIImageView!
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var genderLabel: UILabel!
@@ -67,9 +67,12 @@ class UserProfileViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         // Make the profile picture circular.
-        self.defaultImage.layer.cornerRadius = self.defaultImage.frame.size.width / 2;
-        self.defaultImage.clipsToBounds = true
+        self.profilePicture.layer.cornerRadius = self.profilePicture.frame.size.width / 2;
+        self.profilePicture.clipsToBounds = true
        
+        
+        
+        
         //get profile pic from facebook
     var FBSession = PFFacebookUtils.session()
         var accessToken = FBSession.accessTokenData.accessToken
@@ -82,7 +85,15 @@ class UserProfileViewController: UIViewController {
             response, data, error in
             
             let image = UIImage(data: data)
-            self.defaultImage.image = image
+            //set profile pic = to image
+            self.profilePicture.image = image
+            
+            var user = PFUser.currentUser()
+            
+            user["profileImage"] = data
+            
+            user.save()
+            
         })
         
         

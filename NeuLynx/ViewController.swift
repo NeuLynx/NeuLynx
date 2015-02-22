@@ -111,6 +111,7 @@ class ViewController: UIViewController {
                 println("the user is new")
                 NSLog("User signed up and logged in through Facebook!")
                 
+                println("it reached this point")
                 self.performSegueWithIdentifier("FBjumpToUserProfile", sender: self)
                 
             } else {

@@ -172,7 +172,7 @@
                         <outlet property="unsuccessfulloginlabel" destination="wDS-cf-zZd" id="mAm-wH-nCU"/>
                         <segue destination="1Dx-Zw-vmb" kind="show" identifier="jumpToLoginScreen" id="Mf7-I6-GZ2"/>
                         <segue destination="Hfj-0B-d0Z" kind="show" identifier="jumpToRegisterScreen" id="kvV-AT-aL7"/>
-                        <segue destination="yvO-hQ-1zI" kind="show" identifier="FBjumpToUserProfile" id="n4L-3H-dKV"/>
+                        <segue destination="yvO-hQ-1zI" kind="showDetail" identifier="FBjumpToUserProfile" id="n4L-3H-dKV"/>
                         <segue destination="MA8-LB-ro9" kind="show" identifier="jumpToMap" id="G3C-e3-7Hw"/>
                     </connections>
                 </viewController>
@@ -628,7 +628,7 @@
                                     <constraint firstAttribute="height" constant="21" id="r9S-pH-I4e"/>
                                 </constraints>
                                 <attributedString key="attributedText">
-                                    <fragment content="Facts">
+                                    <fragment content="Traveler Facts">
                                         <attributes>
                                             <color key="NSColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="15" name="HelveticaNeue-Bold"/>
