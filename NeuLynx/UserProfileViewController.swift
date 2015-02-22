@@ -10,6 +10,7 @@ import UIKit
 
 class UserProfileViewController: UIViewController {
     
+    @IBOutlet weak var defaultImage: UIImageView!
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var genderLabel: UILabel!
@@ -64,6 +65,28 @@ class UserProfileViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+        
+        // Make the profile picture circular.
+        self.defaultImage.layer.cornerRadius = self.defaultImage.frame.size.width / 2;
+        self.defaultImage.clipsToBounds = true
+       
+        //get profile pic from facebook
+    var FBSession = PFFacebookUtils.session()
+        var accessToken = FBSession.accessTokenData.accessToken
+        
+        let url = NSURL(string: "https://graph.facebook.com/me/picture?type=large&return_ssl_resources=1&access_token="+accessToken)
+        
+        let urlRequest = NSURLRequest(URL: url!)
+        
+        NSURLConnection.sendAsynchronousRequest(urlRequest, queue: NSOperationQueue.mainQueue(), completionHandler: {
+            response, data, error in
+            
+            let image = UIImage(data: data)
+            self.defaultImage.image = image
+        })
+        
+        
+        
     }
     
     override func didReceiveMemoryWarning() {

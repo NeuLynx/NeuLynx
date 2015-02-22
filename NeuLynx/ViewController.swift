@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var unsuccessfulloginlabel: UILabel!
+   
     
     @IBAction func loginButtonPressed(sender: AnyObject) {
         
@@ -94,6 +95,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func FbLoginButtonPressed(sender: AnyObject) {
+         var fbLoginView: FBLoginView = FBLoginView(readPermissions: ["email", "public_profile"])
+        
         var permissions = ["public_profile", "email"]
         
         self.unsuccessfulloginlabel.alpha = 0
@@ -103,12 +106,16 @@ class ViewController: UIViewController {
             if user == nil {
                 NSLog("Uh oh. The user cancelled the Facebook login.")
                 self.unsuccessfulloginlabel.alpha = 1
+                
             } else if user.isNew {
+                println("the user is new")
                 NSLog("User signed up and logged in through Facebook!")
-                self.performSegueWithIdentifier("jumpToUserProfile", sender: self)
+                
+                self.performSegueWithIdentifier("FBjumpToUserProfile", sender: self)
                 
             } else {
                 NSLog("User logged in through Facebook!")
+                
                 //make sure to remove 
                 self.performSegueWithIdentifier("jumpToMap", sender: self)
             }
