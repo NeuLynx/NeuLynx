@@ -24,6 +24,19 @@
 		F23D53411A98743100B22736 /* backBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D53401A98743100B22736 /* backBackground.png */; };
 		F23D53431A98777E00B22736 /* PictureCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D53421A98777E00B22736 /* PictureCircle.png */; };
 		F23D53451A9877A500B22736 /* defaultimage.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D53441A9877A500B22736 /* defaultimage.png */; };
+		F23D53471A98A55700B22736 /* or.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D53461A98A55700B22736 /* or.png */; };
+		F23D534A1A98A98100B22736 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D53481A98A98100B22736 /* cancel.png */; };
+		F23D534B1A98A98100B22736 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D53491A98A98100B22736 /* next.png */; };
+		F23D534D1A99164700B22736 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D534C1A99164700B22736 /* SignUpViewController.swift */; };
+		F23D534F1A99165F00B22736 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D534E1A99165F00B22736 /* SignInViewController.swift */; };
+		F23D53511A99485F00B22736 /* editbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D53501A99485F00B22736 /* editbutton.png */; };
+		F23D53551A99709200B22736 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D53541A99709200B22736 /* MapViewController.swift */; };
+		F23D53571A99718100B22736 /* LanguagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D53561A99718100B22736 /* LanguagesTableViewController.swift */; };
+		F23D535D1A99735B00B22736 /* cultural.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D53581A99735B00B22736 /* cultural.png */; };
+		F23D535E1A99735B00B22736 /* festival.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D53591A99735B00B22736 /* festival.png */; };
+		F23D535F1A99735B00B22736 /* gastronomy.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D535A1A99735B00B22736 /* gastronomy.png */; };
+		F23D53601A99735B00B22736 /* nightout.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D535B1A99735B00B22736 /* nightout.png */; };
+		F23D53611A99735B00B22736 /* outdoors.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D535C1A99735B00B22736 /* outdoors.png */; };
 		F2BD7EFB1A95C3A700035453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BD7EFA1A95C3A700035453 /* AppDelegate.swift */; };
 		F2BD7EFE1A95C3A700035453 /* NeuLynx.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2BD7EFC1A95C3A700035453 /* NeuLynx.xcdatamodeld */; };
 		F2BD7F001A95C3A700035453 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BD7EFF1A95C3A700035453 /* ViewController.swift */; };
@@ -88,6 +101,19 @@
 		F23D53401A98743100B22736 /* backBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backBackground.png; sourceTree = "<group>"; };
 		F23D53421A98777E00B22736 /* PictureCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PictureCircle.png; sourceTree = "<group>"; };
 		F23D53441A9877A500B22736 /* defaultimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultimage.png; sourceTree = "<group>"; };
+		F23D53461A98A55700B22736 /* or.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = or.png; sourceTree = "<group>"; };
+		F23D53481A98A98100B22736 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		F23D53491A98A98100B22736 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		F23D534C1A99164700B22736 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F23D534E1A99165F00B22736 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		F23D53501A99485F00B22736 /* editbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editbutton.png; sourceTree = "<group>"; };
+		F23D53541A99709200B22736 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F23D53561A99718100B22736 /* LanguagesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LanguagesTableViewController.swift; path = ../LanguagesTableViewController.swift; sourceTree = "<group>"; };
+		F23D53581A99735B00B22736 /* cultural.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cultural.png; sourceTree = "<group>"; };
+		F23D53591A99735B00B22736 /* festival.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = festival.png; sourceTree = "<group>"; };
+		F23D535A1A99735B00B22736 /* gastronomy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gastronomy.png; sourceTree = "<group>"; };
+		F23D535B1A99735B00B22736 /* nightout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nightout.png; sourceTree = "<group>"; };
+		F23D535C1A99735B00B22736 /* outdoors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outdoors.png; sourceTree = "<group>"; };
 		F2BD7EF51A95C3A700035453 /* NeuLynx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuLynx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BD7EF91A95C3A700035453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2BD7EFA1A95C3A700035453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -201,8 +227,12 @@
 			isa = PBXGroup;
 			children = (
 				F2BD7EFA1A95C3A700035453 /* AppDelegate.swift */,
+				F23D534C1A99164700B22736 /* SignUpViewController.swift */,
+				F23D534E1A99165F00B22736 /* SignInViewController.swift */,
 				F2BD7EFF1A95C3A700035453 /* ViewController.swift */,
 				F23D533E1A986C7700B22736 /* UserProfileViewController.swift */,
+				F23D53541A99709200B22736 /* MapViewController.swift */,
+				F23D53561A99718100B22736 /* LanguagesTableViewController.swift */,
 				F2BD7F011A95C3A700035453 /* Main.storyboard */,
 				F2BD7F041A95C3A700035453 /* Images.xcassets */,
 				F2BD7F061A95C3A700035453 /* LaunchScreen.xib */,
@@ -246,8 +276,17 @@
 				F23D53271A95E56900B22736 /* 3.png */,
 				F23D53281A95E56900B22736 /* 4.png */,
 				F23D53291A95E56900B22736 /* 5.png */,
-				F23D53441A9877A500B22736 /* defaultimage.png */,
+				F23D53461A98A55700B22736 /* or.png */,
+				F23D53581A99735B00B22736 /* cultural.png */,
+				F23D53591A99735B00B22736 /* festival.png */,
+				F23D535A1A99735B00B22736 /* gastronomy.png */,
+				F23D535B1A99735B00B22736 /* nightout.png */,
+				F23D535C1A99735B00B22736 /* outdoors.png */,
+				F23D53501A99485F00B22736 /* editbutton.png */,
+				F23D53481A98A98100B22736 /* cancel.png */,
+				F23D53491A98A98100B22736 /* next.png */,
 				F23D53421A98777E00B22736 /* PictureCircle.png */,
+				F23D53441A9877A500B22736 /* defaultimage.png */,
 				F23D53381A980BDE00B22736 /* RegisterButton.png */,
 				F23D533A1A980BE700B22736 /* LoginButton.png */,
 				F23D533C1A980C4E00B22736 /* FacebookButton.png */,
@@ -355,19 +394,24 @@
 			files = (
 				F2BD7F301A95C66D00035453 /* NeuLynx120x120.png in Resources */,
 				F23D532B1A95E56900B22736 /* 1.png in Resources */,
+				F23D53601A99735B00B22736 /* nightout.png in Resources */,
 				F2BD7F2F1A95C66D00035453 /* NeuLynx87x87.png in Resources */,
 				F23D533D1A980C4E00B22736 /* FacebookButton.png in Resources */,
 				F23D53371A97FB4A00B22736 /* FeelLikeALocalLogo.png in Resources */,
 				F23D53451A9877A500B22736 /* defaultimage.png in Resources */,
 				F2BD7F561A95DD5200035453 /* launchScreen.png in Resources */,
 				F2BD7F2D1A95C66D00035453 /* NeuLynx76x76.png in Resources */,
+				F23D535F1A99735B00B22736 /* gastronomy.png in Resources */,
+				F23D535E1A99735B00B22736 /* festival.png in Resources */,
 				F23D532D1A95E56900B22736 /* 3.png in Resources */,
 				F23D533B1A980BE700B22736 /* LoginButton.png in Resources */,
 				F2BD7F2E1A95C66D00035453 /* NeuLynx80x80.png in Resources */,
 				F23D532C1A95E56900B22736 /* 2.png in Resources */,
 				F23D53311A97F08B00B22736 /* cityBackground.png in Resources */,
 				F23D532E1A95E56900B22736 /* 4.png in Resources */,
+				F23D53511A99485F00B22736 /* editbutton.png in Resources */,
 				F2BD7F291A95C66D00035453 /* NeuLynx29x29.png in Resources */,
+				F23D534A1A98A98100B22736 /* cancel.png in Resources */,
 				F2BD7F2C1A95C66D00035453 /* NeuLynx60x60.png in Resources */,
 				F2BD7F031A95C3A700035453 /* Main.storyboard in Resources */,
 				F23D532A1A95E56900B22736 /* 0.png in Resources */,
@@ -379,11 +423,15 @@
 				F23D53431A98777E00B22736 /* PictureCircle.png in Resources */,
 				F2BD7F331A95C66D00035453 /* NeuLynxIcon.png in Resources */,
 				F2BD7F311A95C66D00035453 /* NeuLynx152x152.png in Resources */,
+				F23D53471A98A55700B22736 /* or.png in Resources */,
 				F2BD7F081A95C3A700035453 /* LaunchScreen.xib in Resources */,
 				F2BD7F051A95C3A700035453 /* Images.xcassets in Resources */,
+				F23D534B1A98A98100B22736 /* next.png in Resources */,
 				F23D532F1A95E56900B22736 /* 5.png in Resources */,
 				F2BD7F321A95C66D00035453 /* NeuLynx180x180.png in Resources */,
 				F2BD7F2A1A95C66D00035453 /* NeuLynx40x40.png in Resources */,
+				F23D53611A99735B00B22736 /* outdoors.png in Resources */,
+				F23D535D1A99735B00B22736 /* cultural.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,8 +451,12 @@
 			files = (
 				F2BD7F001A95C3A700035453 /* ViewController.swift in Sources */,
 				F23D533F1A986C7700B22736 /* UserProfileViewController.swift in Sources */,
+				F23D534F1A99165F00B22736 /* SignInViewController.swift in Sources */,
 				F2BD7EFB1A95C3A700035453 /* AppDelegate.swift in Sources */,
 				F2BD7EFE1A95C3A700035453 /* NeuLynx.xcdatamodeld in Sources */,
+				F23D534D1A99164700B22736 /* SignUpViewController.swift in Sources */,
+				F23D53551A99709200B22736 /* MapViewController.swift in Sources */,
+				F23D53571A99718100B22736 /* LanguagesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

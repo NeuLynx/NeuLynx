@@ -14,13 +14,83 @@ class ViewController: UIViewController {
     
     @IBAction func loginButtonPressed(sender: AnyObject) {
         
+       /*     var loginAlert:UIAlertController = UIAlertController(title: "Sign Up / Login", message: "Please sign up or login", preferredStyle: UIAlertControllerStyle.Alert)
+            
+            loginAlert.addTextFieldWithConfigurationHandler({
+                textfield in
+                textfield.placeholder = "Your username"
+            })
+            
+            loginAlert.addTextFieldWithConfigurationHandler({
+                textfield in
+                textfield.placeholder = "Your password"
+                textfield.secureTextEntry = true
+            })
+            
+            loginAlert.addAction(UIAlertAction(title: "Login", style: UIAlertActionStyle.Default, handler: {
+                alertAction in
+                let textFields:NSArray = loginAlert.textFields!
+                let usernameTextfield:UITextField = textFields.objectAtIndex(0) as UITextField
+                let passwordTextfield:UITextField = textFields.objectAtIndex(1) as UITextField
+                
+                PFUser.logInWithUsernameInBackground(usernameTextfield.text, password: passwordTextfield.text){
+                    (user:PFUser!, error:NSError!)->Void in
+                    if user != nil{
+                        println("Login successfull")
+                    }else{
+                        println("Login failed")
+                    }
+                    
+                    
+                }
+                
+                
+                
+                
+            }))
+            
         
-    }
+        loginAlert.addAction(UIAlertAction(title: "Sign Up", style: UIAlertActionStyle.Default, handler: {
+            alertAction in
+            let textFields:NSArray = loginAlert.textFields!
+            let usernameTextfield:UITextField = textFields.objectAtIndex(0) as UITextField
+            let passwordTextfield:UITextField = textFields.objectAtIndex(1) as UITextField
+            
+            var sweeter:PFUser = PFUser()
+            sweeter.username = usernameTextfield.text
+            sweeter.password = passwordTextfield.text
+            
+            sweeter.signUpInBackgroundWithBlock{
+                (success:Bool!, error:NSError!)->Void in
+                if error == nil{
+                    println("Sign Up successfull")
+                }else{
+                    let errorString = error.localizedDescription
+                    println(errorString)
+                }
+                
+                
+            }
+            
+            
+            
+        }))
+
+        
+            self.presentViewController(loginAlert, animated: true, completion: nil)
+        
+    */
     
+
+    }
+
     @IBAction func registeredButtonPressed(sender: AnyObject) {
         
-    }
+     
     
+    
+    }
+
     @IBAction func FbLoginButtonPressed(sender: AnyObject) {
         var permissions = ["public_profile", "email"]
         
@@ -71,6 +141,10 @@ class ViewController: UIViewController {
         
         
         
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+       
     }
 
     override func didReceiveMemoryWarning() {
