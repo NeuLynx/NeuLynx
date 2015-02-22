@@ -173,6 +173,7 @@
                         <segue destination="1Dx-Zw-vmb" kind="show" identifier="jumpToLoginScreen" id="Mf7-I6-GZ2"/>
                         <segue destination="Hfj-0B-d0Z" kind="show" identifier="jumpToRegisterScreen" id="kvV-AT-aL7"/>
                         <segue destination="yvO-hQ-1zI" kind="show" identifier="FBjumpToUserProfile" id="n4L-3H-dKV"/>
+                        <segue destination="MA8-LB-ro9" kind="show" identifier="jumpToMap" id="G3C-e3-7Hw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -1201,7 +1202,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Cx-53-a9F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1359" y="1145"/>
+            <point key="canvasLocation" x="1226" y="1036"/>
         </scene>
         <!--Languages Table-->
         <scene sceneID="3kp-Tv-oL8">
@@ -1248,7 +1249,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="JFZ-h8-RFJ"/>
-        <segue reference="lJo-nV-1D2"/>
-        <segue reference="hUE-wY-1W3"/>
+        <segue reference="n4L-3H-dKV"/>
+        <segue reference="G3C-e3-7Hw"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -110,7 +110,7 @@ class ViewController: UIViewController {
             } else {
                 NSLog("User logged in through Facebook!")
                 //make sure to remove 
-                self.performSegueWithIdentifier("jumpToUserProfile", sender: self)
+                self.performSegueWithIdentifier("jumpToMap", sender: self)
             }
         })
         
