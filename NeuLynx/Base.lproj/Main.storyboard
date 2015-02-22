@@ -267,6 +267,7 @@
                                 </state>
                                 <connections>
                                     <action selector="FbLoginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lIS-9S-lVC"/>
+                                    <action selector="fbLoginButtonPressed:" destination="Hfj-0B-d0Z" eventType="touchUpInside" id="Ag6-kR-vMn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="raA-Yl-RyK">
@@ -278,6 +279,9 @@
                                 <state key="normal" title="Button" image="cancel.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cancelButtonPressed:" destination="Hfj-0B-d0Z" eventType="touchUpInside" id="PjL-1s-mtO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rM4-XS-epp">
                                 <rect key="frame" x="282" y="274" width="75" height="30"/>
@@ -288,6 +292,9 @@
                                 <state key="normal" title="Button" image="next.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="nextButtonPressed:" destination="Hfj-0B-d0Z" eventType="touchUpInside" id="5Fv-9A-LIx"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NeulynxLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="dmB-w3-TIg">
                                 <rect key="frame" x="82" y="476" width="250" height="250"/>
@@ -333,6 +340,9 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
+                        <outlet property="confirmPassword" destination="A0d-xG-wUz" id="oZi-vV-VMb"/>
+                        <outlet property="email" destination="sGV-9U-ak8" id="tUX-bh-bq2"/>
+                        <outlet property="password" destination="9FP-oH-Rkb" id="K8W-Pn-e0z"/>
                         <segue destination="yvO-hQ-1zI" kind="show" identifier="jumpToUserProfile" id="KZf-BJ-xqf"/>
                     </connections>
                 </viewController>
@@ -387,6 +397,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
+                                    <action selector="FBLoginButtonPressed:" destination="1Dx-Zw-vmb" eventType="touchUpInside" id="nc5-si-bnk"/>
                                     <action selector="FbLoginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wqE-NA-caq"/>
                                 </connections>
                             </button>
@@ -422,6 +433,9 @@
                                 <state key="normal" title="Forgot Password?">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="forgotPasswordButtonPressed:" destination="1Dx-Zw-vmb" eventType="touchUpInside" id="chp-YB-fqT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLP-oD-kvG">
                                 <rect key="frame" x="282" y="227" width="75" height="35"/>
@@ -432,6 +446,9 @@
                                 <state key="normal" title="Button" image="next.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="nextButtonPressed:" destination="1Dx-Zw-vmb" eventType="touchUpInside" id="Thi-vw-DHH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jd2-Ho-zC4">
                                 <rect key="frame" x="57" y="227" width="75" height="35"/>
@@ -442,6 +459,9 @@
                                 <state key="normal" title="Button" image="cancel.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cancelButtonPressed:" destination="1Dx-Zw-vmb" eventType="touchUpInside" id="zPD-GM-S4u"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -485,6 +505,10 @@
                         </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="password" destination="1oe-cR-BI8" id="VGC-6m-8Ly"/>
+                        <outlet property="username" destination="hgP-O5-nbe" id="GB1-oP-9hD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QiQ-et-B16" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -542,6 +566,9 @@
                                         <exclude reference="x67-aq-Fn4"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="editFact1ButtonPressed:" destination="yvO-hQ-1zI" eventType="touchUpInside" id="kvA-y4-67T"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1t-Ke-HYS">
                                 <rect key="frame" x="373" y="416" width="15" height="15"/>
@@ -580,6 +607,9 @@
                                         <exclude reference="npq-Ho-qXZ"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="editFact2ButtonPressed:" destination="yvO-hQ-1zI" eventType="touchUpInside" id="Psg-IU-rAy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LtO-dI-dDy">
                                 <rect key="frame" x="373" y="302" width="15" height="15"/>
@@ -606,6 +636,9 @@
                                         <exclude reference="yVo-xd-Wla"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="editLanguagesButtonPressed:" destination="yvO-hQ-1zI" eventType="touchUpInside" id="f5w-mi-5ys"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Tw-7s-ZS0">
                                 <rect key="frame" x="373" y="276" width="15" height="15"/>
@@ -616,6 +649,9 @@
                                 <state key="normal" image="editbutton.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="editPersonalityButtonPressed:" destination="yvO-hQ-1zI" eventType="touchUpInside" id="28k-86-Vzb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FHW-oU-W0x">
                                 <rect key="frame" x="373" y="250" width="15" height="15"/>
@@ -656,6 +692,9 @@
                                         <exclude reference="rbj-hb-SMS"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="editOrientationButtonPressed:" destination="yvO-hQ-1zI" eventType="touchUpInside" id="taL-aE-Xce"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Agy-35-tgL">
                                 <rect key="frame" x="373" y="224" width="15" height="15"/>
@@ -672,6 +711,9 @@
                                         <exclude reference="vcZ-i9-dgw"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="editGenderButtonPressed:" destination="yvO-hQ-1zI" eventType="touchUpInside" id="9dM-n0-AUG"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v38-J0-Ia6">
                                 <rect key="frame" x="83" y="410" width="225" height="21"/>
@@ -867,6 +909,9 @@
                                 <state key="normal" title="Edit Picture">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="editProfilePictureButtonPressed:" destination="yvO-hQ-1zI" eventType="touchUpInside" id="vJW-aZ-XiW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMg-T9-ATe">
                                 <rect key="frame" x="35" y="225" width="46" height="21"/>
@@ -905,6 +950,9 @@
                                         <exclude reference="lwa-0e-vbJ"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="editNameButtonPressed:" destination="yvO-hQ-1zI" eventType="touchUpInside" id="hhX-Vz-oBO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fk8-lp-a8l">
                                 <rect key="frame" x="28" y="666" width="75" height="30"/>
@@ -925,6 +973,9 @@
                                         <exclude reference="b5i-u6-pd5"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="cancelButtonPressed:" destination="yvO-hQ-1zI" eventType="touchUpInside" id="wID-kb-W0L"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8R-RA-3JG">
                                 <rect key="frame" x="313" y="666" width="75" height="30"/>
@@ -935,6 +986,9 @@
                                 <state key="normal" title="Button" image="next.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="nextButtonPressed:" destination="yvO-hQ-1zI" eventType="touchUpInside" id="vgi-rs-CaS"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1061,6 +1115,15 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
+                        <outlet property="editLanguagesButtonPressed" destination="LtO-dI-dDy" id="fVk-ZV-6Xa"/>
+                        <outlet property="editNameButtonPressed" destination="tE7-pg-sTS" id="Aml-7L-yal"/>
+                        <outlet property="fact1Label" destination="lHj-7h-ibQ" id="GF9-pe-zGK"/>
+                        <outlet property="fact2Label" destination="v38-J0-Ia6" id="GqU-9a-tll"/>
+                        <outlet property="genderLabel" destination="dTL-QT-cBV" id="czc-Ik-dMg"/>
+                        <outlet property="languagesLabel" destination="GGV-KM-IYx" id="VmU-M0-MSU"/>
+                        <outlet property="nameLabel" destination="ZrQ-Qw-E9w" id="NuX-Ap-4aU"/>
+                        <outlet property="orientationLabel" destination="ADl-5y-4rb" id="ai2-Yg-7GV"/>
+                        <outlet property="personalityLabel" destination="7Js-AZ-jPV" id="RGS-fz-T1B"/>
                         <segue destination="Uz0-Tp-rmn" kind="show" identifier="jumpToLanguages" id="Bdq-ij-d8V"/>
                         <segue destination="MA8-LB-ro9" kind="show" identifier="jumpToMap" id="hUE-wY-1W3"/>
                     </connections>
@@ -1181,6 +1244,6 @@
         <image name="or.png" width="1122" height="22"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="n4L-3H-dKV"/>
+        <segue reference="KZf-BJ-xqf"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -10,6 +10,17 @@ import UIKit
 
 class SignUpViewController: UIViewController {
 
+    @IBOutlet weak var email: UITextField!
+    @IBOutlet weak var password: UITextField!
+    
+    @IBOutlet weak var confirmPassword: UITextField!
+    @IBAction func fbLoginButtonPressed(sender: AnyObject) {
+    }
+    
+    @IBAction func cancelButtonPressed(sender: AnyObject) {
+    }
+    @IBAction func nextButtonPressed(sender: AnyObject) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

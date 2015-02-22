@@ -10,6 +10,16 @@ import UIKit
 
 class SignInViewController: UIViewController {
 
+    @IBOutlet weak var username: UITextField!
+    @IBOutlet weak var password: UITextField!
+    @IBAction func FBLoginButtonPressed(sender: AnyObject) {
+    }
+    @IBAction func cancelButtonPressed(sender: AnyObject) {
+    }
+    @IBAction func forgotPasswordButtonPressed(sender: AnyObject) {
+    }
+    @IBAction func nextButtonPressed(sender: AnyObject) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
