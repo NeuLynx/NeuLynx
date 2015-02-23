@@ -1,10 +1,451 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yvO-hQ-1zI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7515.2" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="t4E-DN-Anc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7512"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="KNt-pe-t3h">
+            <objects>
+                <viewController id="t4E-DN-Anc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zrS-ml-eNy"/>
+                        <viewControllerLayoutGuide type="bottom" id="dXm-XF-N0h"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yXz-ev-nSD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mon-Da-ql2">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="3Jh-E6-Dsk"/>
+                                    <constraint firstAttribute="width" constant="414" id="FWt-b5-erR"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Terms/Conditions/Private Policy" id="ctW-Or-lPe"/>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sgt-1W-tSy">
+                                <rect key="frame" x="57" y="44" width="300" height="8507"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="6Fm-Om-AaA"/>
+                                    <constraint firstAttribute="height" constant="736" id="QbM-lN-LqB"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="NeuLynx Privacy Policy">
+                                        <attributes>
+                                            <font key="NSFont" size="10" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+
+NeuLynx Inc., ("we," "Company," "us" or "our") has created this "Privacy Policy" to inform our
+
+customers ("you," "customer" or "your") about how we handle your personal information
+
+gathered on or in connection with your visit to and use of www.neulynx.com (the "NeuLynx
+
+Site") or the software applications made available by NeuLynx (we refer to the NeuLynx Site
+
+and the software applications made available by NeuLynx collectively, as the "Service"). This
+
+Privacy Policy does not apply to any other website or offline point of contact between the
+
+Company and you or any other party. By visiting or accessing the Service, you expressly
+
+consent to the use and disclosure of your information as described below.
+
+I</string>
+                                        <attributes>
+                                            <font key="NSFont" size="10" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="nformation We Collect From You">
+                                        <attributes>
+                                            <font key="NSFont" size="10" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+
+In order to operate the Service, we may collect: (i) "personal information," including, without
+
+limitation, your full name, postal address, phone number and email address; (ii) "password
+
+information"; (iii) "demographic information," including, without limitation, your zip code,
+
+hometown, gender, username, age/birth date, browsing history information, searching history
+
+information, registration history information, (iv) the content of communications sent to us and
+
+communications posted through the Service; (v) web logs and other standard data entries,
+
+including, without limitation, your IP address, page URL, browser type and timestamp; (vi)
+
+device and application IDs, and your mobile carrier; and (vii) other data about visitors to the
+
+NeuLynx Site who may not be our users. You have the option of not providing us with any of
+
+the foregoing information, in which case you may still be able to access some portions of the
+
+Service, although you may not be able to access certain services or areas.
+
+You may choose to publish your location through the Service. You may also tell us your
+
+location when you enable your computer or mobile device to send us location information. We
+
+may use and store information about your location to provide features of the Service and to
+
+improve and customize the Service.
+
+If you use an online third party property, such as Facebook, Twitter, or LinkedIn (each, a
+
+"Social Network"), to log in to the Service or otherwise to connect your account or to interact
+
+with the Service, the applicable Social Network may send us your registration or profile
+
+information on that service and other information that you authorize, including information
+
+regarding users on that service. This information enables certain features of the Service
+
+including the contact storing, search, and organization features and helps us improve the
+
+Service. Your activities on your applicable Social Networks are covered by their respective
+
+privacy policies and terms of use.
+
+We strive to protect children's personal information and to meet the standards of the
+
+Children's Online Privacy Protection Act, we do not knowingly collect any personal information
+
+from persons under the age of thirteen (13) that can be used to specifically identify them, and
+
+the Company does not permit persons under the age of thirteen (13) to use the Service. If we
+
+know you are under the age of thirteen (13), we will collect written consent from your legal
+
+parent or guardian by postal mail, electronic mail fax or phone, before we collect, use, store or
+
+disclose any personal information supplied by your interaction with the Service. Accordingly,
+
+you hereby agree that if you are under the age of thirteen (13), you will notify us accordingly
+
+and will provide us with the home or electronic mail address or other contact information of
+
+your legal parent or guardian from which we may obtain legal parental or guardian consent
+
+prior to your use of the Service. Further, legal parents and guardians may review any
+
+personal information we may collect from children under the age of thirteen (13) and request
+
+that we stop using and delete such information at any time by contacting
+
+support@neulynx.com. We will notify all legal parents and guardians upon any change to this
+
+Privacy Policy and other terms and conditions governing our collection of personal information
+
+that we previously received legal parental or guardian consent to collect.
+
+If you email us, we may keep your message, email address, and contact information to
+
+respond to your message.
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="10" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Use of Personal Information">
+                                        <attributes>
+                                            <font key="NSFont" size="10" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+
+Your personal information will be kept confidential, and except as otherwise set forth in this
+
+Privacy Policy, we will not sell, rent or lease to others your personal information. We use your
+
+personal information to help us efficiently operate the Service, to contact you in connection
+
+with your transactions and other activities on the Service (including, but not limited to,
+
+confirmation emails or important news that could affect your relationship with the Company),
+
+and to forward messages to you from other Service users. These types of communications
+
+are known as "Operational Communications." In some cases, Operational Communications
+
+may also contain commercial messages, such as banner ads and special offers. By
+
+registering with the Company, you are agreeing to receive Operational Communications.
+
+We also use personal information to send you newsletters, information, offers and other
+
+promotional materials for the Company's services. We attempt to send you offers that are of
+
+value to you, such as discounts, exclusive offers or special event information. By registering
+
+with the Company, you are opting in to receive such emails. To stop receiving such emails
+
+(other than Operational Communications), please send a request email to
+
+support@neulynx.com.
+
+Further, we may use your personal information to: (i) prevent prohibited or illegal activities on
+
+the Service; (ii) customize, measure and improve the Service, its content and advertising; (iii)
+
+inform you of changes to this Privacy Policy and our end user license agreement; and (iv)
+
+enforce our rights under our agreements with you. In certain instances, our response may be
+
+provided to other Service users or third parties as necessary to respond to any problem,
+
+Lastly, to operate the Service, including supporting your activities on the Service, we may
+
+share your personal information with our agents, representatives, contractors and service
+
+providers so they can provide us with support services such as authorization of email
+
+origination, receipt or support services, customer relationship management services, and
+
+promotional fulfillment. We prohibit these parties from using your information for any other
+
+Following termination or deactivation of your account with the Service, we may retain
+
+information, including profile information or other personal information, for a reasonable time
+
+for backup, audit, or regulatory purposes, or to fulfill a legal requirement.
+
+Special Cases When We Share Personal and Password
+
+Information
+
+Your personal information may be provided to a third party in the event of a transfer of
+
+ownership or assets, or a bankruptcy. We may also disclose personal information or
+
+password information when we determine that such disclosure is necessary to comply with
+
+applicable law, to cooperate with law enforcement, or to protect the interests or safety of the
+
+Company or visitors to or users of the Service. In such circumstances, you agree the
+
+Company may disclose such personal information and password information to the extent
+
+necessary. We may also disclose your personal information or password information to
+
+affiliated legal entities and businesses with whom we are under common corporate control.
+
+Whenever personal information or password information is disclosed under this paragraph,
+
+we may also disclose your demographic information on a non­anonymous basis. All of our
+
+affiliated legal entities and businesses that receive your personal information and
+
+demographic information from us will comply with the terms of this Privacy Policy with respect
+
+to their use and disclosure of such information.
+
+How We Use Demographic Information
+
+We may review all demographic information. We may use demographic information to tailor
+
+the Service and communications to your interests.
+
+Our Security Precautions
+
+The Service has industry standard security measures in place to protect the loss, misuse and
+
+integrity of the information under our control. Although we make good faith efforts to store the
+
+information collected by the Service in a secure operating environment that is not available to
+
+the public, no data transmissions over the Internet are guaranteed to be completely secure
+
+and we cannot guarantee complete security.
+
+Use of Other User's Information
+
+The Service provides various means of communicating with other Service users through
+
+which you may have access to other users' names, email addresses and other information.
+
+By using the Service, you agree that, with respect to other user's personally identifiable
+
+information that you obtain through your use of the Service, including, without limitation, first
+
+and last name, email, photo, hometown, and links to Social Network accounts or user names,
+
+as applicable, you will only use such information for: (i) Service related communications that
+
+are not unsolicited commercial messages; and (ii) any other purpose that such user expressly
+
+agrees to after adequate disclosure of such purpose. Under no circumstances can you
+
+disclose personally identifiable information about another user to any third party without our
+
+consent and the consent of such other user. We urge you to think carefully about including
+
+any specific information you may deem private on the Service.
+
+Cookies
+
+Like most websites, the NeuLynx Site uses cookies to keep track of your activity on the
+
+NeuLynx Site and enhance your experience on the NeuLynx Site. Cookies are strings of text
+
+and numbers that can identify your computer to us when you visit the NeuLynx Site. We also
+
+use cookies to deliver content specific to your interests, to save your password, and if you
+
+choose, to save other personal information so you do not have to reenter it each time you visit
+
+There are two types of cookies: session­based cookies and persistent­based cookies.
+
+Session­based cookies exist only during an online session. They disappear from your
+
+computer when you close your browser software or turn off your computer. Persistent­based
+
+cookies remain on your computer after you have closed your browser or turned off your
+
+computer. They include such information as a unique identifier for your browser. Standing
+
+alone, cookies do not contain personal data, and therefore do not identify you personally; they
+
+merely recognize your browser. Unless you choose to identify yourself to us by using the
+
+NeuLynx Site, you will remain anonymous to us.
+
+From time to time, we may engage third parties to track and analyze non­personally
+
+identifiable usage and volume statistical information from visitors to the NeuLynx Site to help
+
+us administer the NeuLynx Site and improve its quality. Such third parties may use cookies to
+
+help track visitor behavior, including visitor responsiveness to online advertisements, and may
+
+track visitor behavior across multiple websites. Such cookies will not be used to associate
+
+individual NeuLynx Site visitors with any personal data. As such, we do not respond to
+
+browser "do not track" requests. Except as otherwise set forth in the end user license
+
+agreement, all data collected by such third parties on our behalf is used only to provide us
+
+with information on NeuLynx Site usage and will not be shared with any other third parties.
+
+Third party advertisers on the NeuLynx Site may also place or read cookies on your browser.
+
+If you wish to disable these cookies, the "help" portion of the toolbar on most browsers will tell
+
+you how. However, if you set your browser to disable cookies, you may not be able to access
+
+certain areas on the NeuLynx Site.
+
+Your IP Address
+
+Each time you visit the NeuLynx Site, we automatically collect your IP address (which is a
+
+number that can be used to identify your location) and the web page from which you came. In
+
+order to administer and optimize the NeuLynx Site for you and to diagnose problems with the
+
+NeuLynx Site, we use your IP address to help identify you and to gather broad demographic
+
+information about you. We may also collect the URL from which you came to the NeuLynx
+
+Site and the URLs visited on the NeuLynx Site. A URL is the full address of a website page.
+
+Please review this Privacy Policy periodically as we may modify it from time to time, which
+
+modifications shall be effective once posted on the NeuLynx Site. Each time you visit the
+
+NeuLynx Site or provide us with information, you are accepting the practices described in the
+
+"Information We Collect From You" paragraph set forth above in this Privacy Policy.
+
+Changing Our Privacy Policy for Previously Gathered
+
+Information
+
+If, at any point, we decide to use particular personally identifiable information in a manner
+
+different from that stated at the time it was collected, we will notify users by way of an email or
+
+by providing seven (7) days' notice on the NeuLynx Site. Please note that we will continue to
+
+have the right to change this Privacy Policy and practices, and how we use your
+
+non­personally identifiable information, without notice, as described in the "Information We
+
+Collect From You" paragraph set forth above in this Privacy Policy.
+
+How You Can Access and Update Your Email
+
+Preferences and Information
+
+We give you the opportunity to opt­out of certain communications and modify personal
+
+information or demographic information you have provided to us, and to hide demographic
+
+information from, or make demographic information visible to, the public users of the NeuLynx
+
+Site, at any time by going to the "My Account" section of the NeuLynx Site. Please be aware
+
+that it may take several hours for the changes you make to take effect on the public areas of
+
+the Service. We thank you for your patience. Please note that changing or deleting your
+
+information through the "My Account" section of the NeuLynx Site, or otherwise opting­out of
+
+receipt of email communications from the Company, will only change or delete the data in our
+
+database for purposes of future activities on the Service and for managing future
+
+communications from the Company. These changes and deletions will not change or delete
+
+emails or information that we may have already forwarded to other users or any other third
+
+parties, all as provided above in this Privacy Policy.
+
+If you have any questions or concerns about this Privacy Policy, the practices of the Service,
+
+or your dealings with the Service, you can contact us at support@neulynx.com.</string>
+                                        <attributes>
+                                            <font key="NSFont" size="10" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mon-Da-ql2" firstAttribute="top" secondItem="yXz-ev-nSD" secondAttribute="topMargin" id="F7X-LY-ecs"/>
+                            <constraint firstItem="sgt-1W-tSy" firstAttribute="top" secondItem="mon-Da-ql2" secondAttribute="bottom" id="Wcf-mU-zA3"/>
+                            <constraint firstAttribute="centerX" secondItem="mon-Da-ql2" secondAttribute="centerX" id="oO5-To-kyf"/>
+                            <constraint firstAttribute="centerX" secondItem="sgt-1W-tSy" secondAttribute="centerX" id="pCH-pK-ZsI"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vde-nS-qbi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-8" y="-184"/>
+        </scene>
         <!--Initial Login Screen-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -172,7 +613,7 @@
                         <outlet property="unsuccessfulloginlabel" destination="wDS-cf-zZd" id="mAm-wH-nCU"/>
                         <segue destination="1Dx-Zw-vmb" kind="show" identifier="jumpToLoginScreen" id="Mf7-I6-GZ2"/>
                         <segue destination="Hfj-0B-d0Z" kind="show" identifier="jumpToRegisterScreen" id="kvV-AT-aL7"/>
-                        <segue destination="yvO-hQ-1zI" kind="showDetail" identifier="FBjumpToUserProfile" id="n4L-3H-dKV"/>
+                        <segue destination="yvO-hQ-1zI" kind="showDetail" identifier="fbJumpToUserProfile" id="n4L-3H-dKV"/>
                         <segue destination="MA8-LB-ro9" kind="show" identifier="jumpToMap" id="G3C-e3-7Hw"/>
                     </connections>
                 </viewController>
@@ -949,7 +1390,9 @@
                                     <constraint firstAttribute="height" constant="49" id="z1T-lC-nLp"/>
                                 </constraints>
                                 <items>
-                                    <tabBarItem systemItem="favorites" id="3zH-iL-fKf"/>
+                                    <tabBarItem image="cultural.png" id="3zH-iL-fKf">
+                                        <inset key="imageInsets" minX="6" minY="16" maxX="8" maxY="3"/>
+                                    </tabBarItem>
                                     <tabBarItem systemItem="more" id="Fmh-xl-h0v"/>
                                 </items>
                             </tabBar>
@@ -1018,14 +1461,15 @@
         <image name="backBackground.png" width="750" height="1334"/>
         <image name="cancel.png" width="252" height="145"/>
         <image name="cityBackground.png" width="1242" height="2208"/>
+        <image name="cultural.png" width="60" height="60"/>
         <image name="defaultimage.png" width="1200" height="1200"/>
         <image name="editbutton.png" width="35" height="35"/>
         <image name="next.png" width="252" height="145"/>
         <image name="or.png" width="1122" height="22"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="G3C-e3-7Hw"/>
         <segue reference="JFZ-h8-RFJ"/>
         <segue reference="n4L-3H-dKV"/>
-        <segue reference="hUE-wY-1W3"/>
     </inferredMetricsTieBreakers>
 </document>

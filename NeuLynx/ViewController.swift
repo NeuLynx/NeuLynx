@@ -101,7 +101,7 @@ class ViewController: UIViewController {
         
         self.unsuccessfulloginlabel.alpha = 0
         
-        PFFacebookUtils.logInWithPermissions(permissions, {
+        PFFacebookUtils.logInWithPermissions(permissions, block: {
             (user: PFUser!, error: NSError!) -> Void in
             if user == nil {
                 NSLog("Uh oh. The user cancelled the Facebook login.")
@@ -112,7 +112,7 @@ class ViewController: UIViewController {
                 NSLog("User signed up and logged in through Facebook!")
                 
                 println("it reached this point")
-                self.performSegueWithIdentifier("FBjumpToUserProfile", sender: self)
+                self.performSegueWithIdentifier("fbJumpToUserProfile", sender: self)
                 
             } else {
                 NSLog("User logged in through Facebook!")

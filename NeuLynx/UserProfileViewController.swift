@@ -10,6 +10,8 @@ import UIKit
 
 class UserProfileViewController: UIViewController {
     
+    
+    
     @IBOutlet weak var profilePicture: UIImageView!
     
     @IBOutlet weak var nameLabel: UILabel!
@@ -64,6 +66,9 @@ class UserProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //define the parse user
+        var user = PFUser.currentUser()
+        
         // Do any additional setup after loading the view.
         
         // Make the profile picture circular.
@@ -88,11 +93,19 @@ class UserProfileViewController: UIViewController {
             //set profile pic = to image
             self.profilePicture.image = image
             
-            var user = PFUser.currentUser()
+            
             
             user["profileImage"] = data
             
             user.save()
+            
+            FBRequestConnection.startForMeWithCompletionHandler({
+                connection, result, error in
+                
+                user["gender"] = result["gender"]
+                user["name"] = result["name"]
+               
+            })
             
         })
         
