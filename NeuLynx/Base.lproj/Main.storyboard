@@ -603,11 +603,13 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="backBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mfq-Ps-JCK">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mfq-Ps-JCK">
                                 <rect key="frame" x="-15" y="-24" width="444" height="784"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="444" id="218-Yb-OLy"/>
                                     <constraint firstAttribute="width" constant="414" id="CFP-SX-dbq"/>
                                     <constraint firstAttribute="height" constant="784" id="MwS-8r-g87"/>
+                                    <constraint firstAttribute="height" constant="784" id="RZa-W8-cXk"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -667,12 +669,14 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                                     <action selector="nextButtonPressed:" destination="Hfj-0B-d0Z" eventType="touchUpInside" id="iq1-Cc-peR"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="NeulynxLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="dmB-w3-TIg">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NeulynxLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="dmB-w3-TIg">
                                 <rect key="frame" x="82" y="476" width="250" height="250"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="Tr4-4C-ygQ"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="250" id="bFN-SU-joR"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="250" id="eUK-xy-hH9"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="gvR-kI-bom"/>
+                                    <constraint firstAttribute="width" constant="250" id="lnZ-n2-kAs"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="pmC-pH-ppb"/>
                                 </constraints>
                                 <variation key="default">
@@ -720,8 +724,12 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                         <constraints>
                             <constraint firstItem="raA-Yl-RyK" firstAttribute="top" secondItem="A0d-xG-wUz" secondAttribute="bottom" constant="18" id="1J1-Bh-qWY"/>
                             <constraint firstAttribute="centerX" secondItem="9FP-oH-Rkb" secondAttribute="centerX" id="4Dp-pz-QVz"/>
+                            <constraint firstAttribute="centerY" secondItem="Mfq-Ps-JCK" secondAttribute="centerY" id="8Jg-T1-Pyj"/>
                             <constraint firstItem="A0d-xG-wUz" firstAttribute="top" secondItem="9FP-oH-Rkb" secondAttribute="bottom" constant="8" id="9KF-FG-mf9"/>
                             <constraint firstAttribute="centerX" secondItem="Xav-mg-SKG" secondAttribute="centerX" id="BaA-sl-mrf"/>
+                            <constraint firstAttribute="centerX" secondItem="Mfq-Ps-JCK" secondAttribute="centerX" id="BdV-Os-F06"/>
+                            <constraint firstAttribute="centerX" secondItem="dmB-w3-TIg" secondAttribute="centerX" id="IDA-tg-npy"/>
+                            <constraint firstItem="HXu-5h-Imb" firstAttribute="top" secondItem="dmB-w3-TIg" secondAttribute="bottom" constant="10" id="ILp-99-CFi"/>
                             <constraint firstItem="sGV-9U-ak8" firstAttribute="top" secondItem="Xav-mg-SKG" secondAttribute="bottom" constant="30" id="IT8-75-kq7"/>
                             <constraint firstItem="raA-Yl-RyK" firstAttribute="leading" secondItem="PZ7-aO-Fuz" secondAttribute="leadingMargin" id="LHU-vE-ork"/>
                             <constraint firstItem="Mfq-Ps-JCK" firstAttribute="top" secondItem="9FP-oH-Rkb" secondAttribute="bottom" constant="-242" id="QDc-i6-w3v"/>
