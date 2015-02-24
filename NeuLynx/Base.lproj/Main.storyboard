@@ -603,7 +603,7 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mfq-Ps-JCK">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="backBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mfq-Ps-JCK">
                                 <rect key="frame" x="-15" y="-24" width="444" height="784"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="414" id="CFP-SX-dbq"/>
@@ -619,8 +619,8 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A0d-xG-wUz">
                                 <rect key="frame" x="57" y="226" width="300" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="XNx-lY-g2q"/>
-                                    <constraint firstAttribute="width" constant="300" id="k9d-5D-RzQ"/>
+                                    <constraint firstAttribute="height" constant="30" id="EGt-af-bKh"/>
+                                    <constraint firstAttribute="width" constant="300" id="VB5-XR-cdA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
@@ -628,8 +628,8 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sGV-9U-ak8">
                                 <rect key="frame" x="57" y="150" width="300" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="iN4-p5-ewX"/>
-                                    <constraint firstAttribute="height" constant="30" id="wbY-BS-eV7"/>
+                                    <constraint firstAttribute="height" constant="30" id="AM5-Wo-syE"/>
+                                    <constraint firstAttribute="width" constant="300" id="BxI-gs-TMM"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -637,36 +637,15 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="or.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xav-mg-SKG">
                                 <rect key="frame" x="34" y="111" width="346" height="9"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="346" id="OED-ch-igS"/>
-                                    <constraint firstAttribute="height" constant="9" id="fmC-7C-eLS"/>
+                                    <constraint firstAttribute="height" constant="9" id="G9t-yU-SSf"/>
+                                    <constraint firstAttribute="width" constant="346" id="OUH-wj-2aX"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JuW-Wm-T5T">
-                                <rect key="frame" x="57" y="36" width="300" height="46"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="Ge1-Qa-gTO"/>
-                                    <constraint firstAttribute="height" constant="46" id="uxf-qo-QfB"/>
-                                </constraints>
-                                <state key="normal" title="Login With Facebook" backgroundImage="FacebookButton.png">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Login With Facebook">
-                                            <attributes>
-                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <action selector="FbLoginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lIS-9S-lVC"/>
-                                    <action selector="fbLoginButtonPressed:" destination="Hfj-0B-d0Z" eventType="touchUpInside" id="Ag6-kR-vMn"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="raA-Yl-RyK">
-                                <rect key="frame" x="57" y="274" width="75" height="30"/>
+                                <rect key="frame" x="16" y="274" width="75" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="2Yk-UP-AMI"/>
-                                    <constraint firstAttribute="width" constant="75" id="abU-4D-Tfs"/>
+                                    <constraint firstAttribute="width" constant="75" id="2OG-08-7MF"/>
+                                    <constraint firstAttribute="height" constant="30" id="xv1-Iq-XUX"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="cancel.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -676,10 +655,10 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rM4-XS-epp">
-                                <rect key="frame" x="282" y="274" width="75" height="30"/>
+                                <rect key="frame" x="323" y="274" width="75" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="75" id="Rjh-yz-2Qe"/>
-                                    <constraint firstAttribute="height" constant="30" id="fpx-Di-98V"/>
+                                    <constraint firstAttribute="height" constant="30" id="JgJ-U0-9cH"/>
+                                    <constraint firstAttribute="width" constant="75" id="Y8v-ie-zZX"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="next.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -688,14 +667,13 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                                     <action selector="nextButtonPressed:" destination="Hfj-0B-d0Z" eventType="touchUpInside" id="iq1-Cc-peR"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NeulynxLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="dmB-w3-TIg">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="NeulynxLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="dmB-w3-TIg">
                                 <rect key="frame" x="82" y="476" width="250" height="250"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="250" id="bFN-SU-joR"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="250" id="eUK-xy-hH9"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="gvR-kI-bom"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="pmC-pH-ppb"/>
-                                    <constraint firstAttribute="height" constant="250" id="v0m-he-RVE"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -709,44 +687,62 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9FP-oH-Rkb">
                                 <rect key="frame" x="57" y="188" width="300" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="C8j-ge-KUa"/>
-                                    <constraint firstAttribute="height" constant="30" id="ETf-Vx-bMt"/>
+                                    <constraint firstAttribute="height" constant="30" id="MKq-uk-kK5"/>
+                                    <constraint firstAttribute="width" constant="300" id="VNo-1N-vwm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JuW-Wm-T5T">
+                                <rect key="frame" x="57" y="38" width="300" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Dk5-2N-Fs9"/>
+                                    <constraint firstAttribute="width" constant="300" id="Xgh-GL-5in"/>
+                                </constraints>
+                                <state key="normal" title="Login With Facebook" backgroundImage="FacebookButton.png">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Login With Facebook">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="FbLoginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lIS-9S-lVC"/>
+                                    <action selector="fbLoginButtonPressed:" destination="Hfj-0B-d0Z" eventType="touchUpInside" id="Ag6-kR-vMn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="rM4-XS-epp" firstAttribute="trailing" secondItem="A0d-xG-wUz" secondAttribute="trailing" id="BAc-Fl-jc5"/>
-                            <constraint firstItem="A0d-xG-wUz" firstAttribute="leading" secondItem="9FP-oH-Rkb" secondAttribute="leading" id="BpR-oE-7Ju"/>
-                            <constraint firstItem="raA-Yl-RyK" firstAttribute="top" secondItem="A0d-xG-wUz" secondAttribute="bottom" constant="18" id="EqO-Ny-2Uh"/>
-                            <constraint firstItem="HXu-5h-Imb" firstAttribute="top" secondItem="dmB-w3-TIg" secondAttribute="bottom" constant="10" id="Fos-Co-zqT"/>
-                            <constraint firstItem="9FP-oH-Rkb" firstAttribute="trailing" secondItem="A0d-xG-wUz" secondAttribute="trailing" id="L60-xK-kUZ"/>
-                            <constraint firstItem="raA-Yl-RyK" firstAttribute="leading" secondItem="A0d-xG-wUz" secondAttribute="leading" id="O6E-vl-Srz"/>
-                            <constraint firstItem="sGV-9U-ak8" firstAttribute="trailing" secondItem="9FP-oH-Rkb" secondAttribute="trailing" id="SMn-Jb-UwQ"/>
-                            <constraint firstItem="Mfq-Ps-JCK" firstAttribute="top" secondItem="PZ7-aO-Fuz" secondAttribute="topMargin" constant="-24" id="Y9s-EG-jOI"/>
-                            <constraint firstItem="dmB-w3-TIg" firstAttribute="centerX" secondItem="PZ7-aO-Fuz" secondAttribute="centerX" id="Z6Z-3q-A1x"/>
-                            <constraint firstItem="dmB-w3-TIg" firstAttribute="leading" secondItem="PZ7-aO-Fuz" secondAttribute="leadingMargin" constant="66" id="aez-UK-9dT"/>
-                            <constraint firstItem="JuW-Wm-T5T" firstAttribute="leading" secondItem="sGV-9U-ak8" secondAttribute="leading" id="bxx-7D-iw4"/>
-                            <constraint firstItem="JuW-Wm-T5T" firstAttribute="leading" secondItem="PZ7-aO-Fuz" secondAttribute="leadingMargin" constant="41" id="ceJ-Z1-BAU"/>
-                            <constraint firstItem="Xav-mg-SKG" firstAttribute="leading" secondItem="PZ7-aO-Fuz" secondAttribute="leadingMargin" constant="18" id="crq-9N-7pd"/>
-                            <constraint firstItem="A0d-xG-wUz" firstAttribute="top" secondItem="9FP-oH-Rkb" secondAttribute="bottom" constant="8" symbolic="YES" id="fCN-pG-4D4"/>
-                            <constraint firstItem="rM4-XS-epp" firstAttribute="baseline" secondItem="raA-Yl-RyK" secondAttribute="baseline" id="fvu-ng-qQc"/>
-                            <constraint firstItem="JuW-Wm-T5T" firstAttribute="top" secondItem="i3R-rq-pMM" secondAttribute="bottom" constant="16" id="fzU-Ea-1fq"/>
-                            <constraint firstItem="raA-Yl-RyK" firstAttribute="firstBaseline" secondItem="rM4-XS-epp" secondAttribute="firstBaseline" id="gXt-Xf-kYg"/>
-                            <constraint firstItem="sGV-9U-ak8" firstAttribute="centerX" secondItem="Mfq-Ps-JCK" secondAttribute="centerX" id="j3n-8K-j81"/>
-                            <constraint firstItem="sGV-9U-ak8" firstAttribute="trailing" secondItem="JuW-Wm-T5T" secondAttribute="trailing" id="kqb-vU-A1Q"/>
-                            <constraint firstItem="9FP-oH-Rkb" firstAttribute="leading" secondItem="sGV-9U-ak8" secondAttribute="leading" id="mKr-au-tBS"/>
-                            <constraint firstItem="rM4-XS-epp" firstAttribute="top" secondItem="raA-Yl-RyK" secondAttribute="top" id="qmg-Gl-2ij"/>
-                            <constraint firstItem="Mfq-Ps-JCK" firstAttribute="centerY" secondItem="PZ7-aO-Fuz" secondAttribute="centerY" id="rZu-eM-gA7"/>
-                            <constraint firstItem="sGV-9U-ak8" firstAttribute="top" secondItem="Xav-mg-SKG" secondAttribute="bottom" constant="30" id="tgY-8A-gvx"/>
-                            <constraint firstItem="Xav-mg-SKG" firstAttribute="centerX" secondItem="sGV-9U-ak8" secondAttribute="centerX" id="v8S-CY-n0v"/>
-                            <constraint firstItem="A0d-xG-wUz" firstAttribute="centerX" secondItem="dmB-w3-TIg" secondAttribute="centerX" id="wFZ-PV-58o"/>
-                            <constraint firstItem="9FP-oH-Rkb" firstAttribute="top" secondItem="sGV-9U-ak8" secondAttribute="bottom" constant="8" symbolic="YES" id="xWI-aF-Ymw"/>
-                            <constraint firstItem="Xav-mg-SKG" firstAttribute="top" secondItem="JuW-Wm-T5T" secondAttribute="bottom" constant="29" id="xuC-nF-dzl"/>
-                            <constraint firstItem="Mfq-Ps-JCK" firstAttribute="leading" secondItem="PZ7-aO-Fuz" secondAttribute="leadingMargin" constant="-31" id="zZO-Vz-bjs"/>
+                            <constraint firstItem="raA-Yl-RyK" firstAttribute="top" secondItem="A0d-xG-wUz" secondAttribute="bottom" constant="18" id="1J1-Bh-qWY"/>
+                            <constraint firstAttribute="centerX" secondItem="9FP-oH-Rkb" secondAttribute="centerX" id="4Dp-pz-QVz"/>
+                            <constraint firstItem="A0d-xG-wUz" firstAttribute="top" secondItem="9FP-oH-Rkb" secondAttribute="bottom" constant="8" id="9KF-FG-mf9"/>
+                            <constraint firstAttribute="centerX" secondItem="Xav-mg-SKG" secondAttribute="centerX" id="BaA-sl-mrf"/>
+                            <constraint firstItem="sGV-9U-ak8" firstAttribute="top" secondItem="Xav-mg-SKG" secondAttribute="bottom" constant="30" id="IT8-75-kq7"/>
+                            <constraint firstItem="raA-Yl-RyK" firstAttribute="leading" secondItem="PZ7-aO-Fuz" secondAttribute="leadingMargin" id="LHU-vE-ork"/>
+                            <constraint firstItem="Mfq-Ps-JCK" firstAttribute="top" secondItem="9FP-oH-Rkb" secondAttribute="bottom" constant="-242" id="QDc-i6-w3v"/>
+                            <constraint firstAttribute="centerX" secondItem="A0d-xG-wUz" secondAttribute="centerX" id="TfQ-j9-pNh"/>
+                            <constraint firstAttribute="centerX" secondItem="sGV-9U-ak8" secondAttribute="centerX" id="VQq-61-mJo"/>
+                            <constraint firstItem="Xav-mg-SKG" firstAttribute="top" secondItem="JuW-Wm-T5T" secondAttribute="bottom" constant="23" id="WRO-qC-95L"/>
+                            <constraint firstItem="9FP-oH-Rkb" firstAttribute="top" secondItem="sGV-9U-ak8" secondAttribute="bottom" constant="8" id="WmN-Gz-iMk"/>
+                            <constraint firstItem="rM4-XS-epp" firstAttribute="top" secondItem="A0d-xG-wUz" secondAttribute="bottom" constant="18" id="Y29-nT-8Xi"/>
+                            <constraint firstItem="Mfq-Ps-JCK" firstAttribute="top" secondItem="sGV-9U-ak8" secondAttribute="bottom" constant="-204" id="c7P-6n-nDe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rM4-XS-epp" secondAttribute="trailing" id="crU-ap-1Jc"/>
+                            <constraint firstItem="Mfq-Ps-JCK" firstAttribute="top" secondItem="A0d-xG-wUz" secondAttribute="bottom" constant="-280" id="f2L-2b-2ik"/>
+                            <constraint firstAttribute="centerX" secondItem="JuW-Wm-T5T" secondAttribute="centerX" id="o5T-om-1k8"/>
+                            <constraint firstItem="JuW-Wm-T5T" firstAttribute="top" secondItem="i3R-rq-pMM" secondAttribute="bottom" constant="18" id="r05-Jh-Ofm"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="QDc-i6-w3v"/>
+                                <exclude reference="c7P-6n-nDe"/>
+                                <exclude reference="f2L-2b-2ik"/>
+                            </mask>
+                        </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
