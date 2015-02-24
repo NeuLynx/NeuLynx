@@ -20,7 +20,6 @@
 		F23D53391A980BDE00B22736 /* RegisterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D53381A980BDE00B22736 /* RegisterButton.png */; };
 		F23D533B1A980BE700B22736 /* LoginButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D533A1A980BE700B22736 /* LoginButton.png */; };
 		F23D533D1A980C4E00B22736 /* FacebookButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D533C1A980C4E00B22736 /* FacebookButton.png */; };
-		F23D533F1A986C7700B22736 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D533E1A986C7700B22736 /* UserProfileViewController.swift */; };
 		F23D53411A98743100B22736 /* backBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D53401A98743100B22736 /* backBackground.png */; };
 		F23D53431A98777E00B22736 /* PictureCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D53421A98777E00B22736 /* PictureCircle.png */; };
 		F23D53451A9877A500B22736 /* defaultimage.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D53441A9877A500B22736 /* defaultimage.png */; };
@@ -37,6 +36,7 @@
 		F23D535F1A99735B00B22736 /* gastronomy.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D535A1A99735B00B22736 /* gastronomy.png */; };
 		F23D53601A99735B00B22736 /* nightout.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D535B1A99735B00B22736 /* nightout.png */; };
 		F23D53611A99735B00B22736 /* outdoors.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D535C1A99735B00B22736 /* outdoors.png */; };
+		F2BBB9C41A9C2C4000AD3D03 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D533E1A986C7700B22736 /* UserProfileViewController.swift */; };
 		F2BD7EFB1A95C3A700035453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BD7EFA1A95C3A700035453 /* AppDelegate.swift */; };
 		F2BD7EFE1A95C3A700035453 /* NeuLynx.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2BD7EFC1A95C3A700035453 /* NeuLynx.xcdatamodeld */; };
 		F2BD7F001A95C3A700035453 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BD7EFF1A95C3A700035453 /* ViewController.swift */; };
@@ -450,7 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2BD7F001A95C3A700035453 /* ViewController.swift in Sources */,
-				F23D533F1A986C7700B22736 /* UserProfileViewController.swift in Sources */,
+				F2BBB9C41A9C2C4000AD3D03 /* UserProfileViewController.swift in Sources */,
 				F23D534F1A99165F00B22736 /* SignInViewController.swift in Sources */,
 				F2BD7EFB1A95C3A700035453 /* AppDelegate.swift in Sources */,
 				F2BD7EFE1A95C3A700035453 /* NeuLynx.xcdatamodeld in Sources */,

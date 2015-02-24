@@ -77,7 +77,7 @@ class UserProfileViewController: UIViewController {
        
         
         
-        
+       
         //get profile pic from facebook
     var FBSession = PFFacebookUtils.session()
         var accessToken = FBSession.accessTokenData.accessToken
@@ -97,7 +97,6 @@ class UserProfileViewController: UIViewController {
             
             user["profileImage"] = data
             
-            user.save()
             
             FBRequestConnection.startForMeWithCompletionHandler({
                 connection, result, error in
@@ -108,7 +107,9 @@ class UserProfileViewController: UIViewController {
             })
             
         })
+        user.save()
         
+    
         
         
     }

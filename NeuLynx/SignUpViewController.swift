@@ -21,7 +21,23 @@ class SignUpViewController: UIViewController {
         self.performSegueWithIdentifier("backToFirstScreen", sender: self)
     }
     @IBAction func nextButtonPressed(sender: AnyObject) {
-        self.performSegueWithIdentifier("jumpToUserProfile", sender: self)
+        //self.performSegueWithIdentifier("jumpToUserProfile", sender: self)
+        
+        var error = ""
+        
+        if email.text == "" || password.text == "" {
+            error = "Please enter a username an password"
+            
+        }
+        //set up alert and display to user
+        if error != "" {
+            var alert = UIAlertController(title: "Error in Register Form", message: error, preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .Default, handler:{
+                action  in
+               self.dismissViewControllerAnimated(true, completion: nil)
+            }))
+            self.presentViewController(alert, animated: true, completion: nil)
+        }
         
     }
   
