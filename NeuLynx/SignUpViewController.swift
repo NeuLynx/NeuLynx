@@ -8,13 +8,50 @@
 
 import UIKit
 
-class SignUpViewController: UIViewController {
+class SignUpViewController: UIViewController, UITextFieldDelegate{
 
+  
+    
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
-    
     @IBOutlet weak var confirmPassword: UITextField!
+    
+    
+    
+  
+    
+    // FACEBOOK LOG IN
     @IBAction func fbLoginButtonPressed(sender: AnyObject) {
+        
+        var fbLoginView: FBLoginView = FBLoginView(readPermissions: ["email", "public_profile"])
+        
+        var permissions = ["public_profile", "email"]
+        
+        
+        
+        PFFacebookUtils.logInWithPermissions(permissions, block: {
+            (user: PFUser!, error: NSError!) -> Void in
+            if user == nil {
+                NSLog("Uh oh. The user cancelled the Facebook login.")
+                
+                
+            } else if user.isNew {
+                println("the user is new")
+                NSLog("User signed up and logged in through Facebook!")
+                
+                println("it reached this point")
+                self.performSegueWithIdentifier("fbJumpToUserProfile", sender: self)
+                
+            } else {
+                NSLog("User logged in through Facebook!")
+                
+                //make sure to remove
+                self.performSegueWithIdentifier("jumpToMap", sender: self)
+            }
+        })
+        
+
+        
     }
     
     @IBAction func cancelButtonPressed(sender: AnyObject) {
@@ -28,7 +65,7 @@ class SignUpViewController: UIViewController {
         
         if email.text == "" || password.text == "" || confirmPassword.text == "" {
             //make the borders of each field red if any of them are empty
-            email.layer.cornerRadius = 8
+           /* email.layer.cornerRadius = 8
              email.layer.borderWidth = 2
             email.layer.borderColor = UIColor.redColor().CGColor
             
@@ -38,11 +75,13 @@ class SignUpViewController: UIViewController {
             
             confirmPassword.layer.cornerRadius = 8
             confirmPassword.layer.borderWidth = 2
-            confirmPassword.layer.borderColor = UIColor.redColor().CGColor
+            confirmPassword.layer.borderColor = UIColor.redColor().CGColor*/
             
-            error = "Please enter a username an password"
+            error = "Please enter a username and password"
            
-        } else if isValidEmail(email.text) == false{
+        }
+        
+            if isValidEmail(email.text) == false{
                 email.layer.cornerRadius = 8
                 email.layer.borderWidth = 2
                 email.layer.borderColor = UIColor.redColor().CGColor
@@ -54,9 +93,26 @@ class SignUpViewController: UIViewController {
                 email.layer.cornerRadius = 8
                 email.layer.borderWidth = 2
                 email.layer.borderColor = UIColor.greenColor().CGColor
+                
         }
+        
+        
+        if count(password.text) < 8 {
+            password.layer.cornerRadius = 8
+            password.layer.borderWidth = 2
+            password.layer.borderColor = UIColor.redColor().CGColor
+            
+            
+        }else {
+            password.layer.cornerRadius = 8
+            password.layer.borderWidth = 2
+            password.layer.borderColor = UIColor.greenColor().CGColor
+            
+        }
+        
+        
         //set up alert and display to user
-        if error != "" {
+        /*if error != "" {
             
             var alert = UIAlertController(title: "Error in Register Form", message: error, preferredStyle: UIAlertControllerStyle.Alert)
             alert.addAction(UIAlertAction(title: "OK", style: .Default, handler:{
@@ -65,7 +121,7 @@ class SignUpViewController: UIViewController {
             }))
             
             self.presentViewController(alert, animated: true, completion: nil)
-        }
+        }*/
         
     }
   
@@ -73,6 +129,10 @@ class SignUpViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        email.delegate = self
+        password.delegate = self
+        
+       
         
       
     }
@@ -91,7 +151,17 @@ class SignUpViewController: UIViewController {
         return result
         
     }
+    func isValidPassword(testStr:String) -> Bool {
+        // 8 characters. one uppercase
+        var PASSWORD_REGEX = "^(?=.*?[A-Z]).{8,}$"
+        
+        
+        let range = testStr.rangeOfString(PASSWORD_REGEX, options:.RegularExpressionSearch)
+        let result = range != nil ? true : false
+        return result
 
+    }
+   
     /*
     // MARK: - Navigation
 

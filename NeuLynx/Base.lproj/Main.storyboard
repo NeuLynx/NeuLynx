@@ -627,7 +627,7 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sGV-9U-ak8">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="sGV-9U-ak8">
                                 <rect key="frame" x="57" y="150" width="300" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="AM5-Wo-syE"/>
@@ -635,6 +635,9 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="nextButtonPressed:" destination="Hfj-0B-d0Z" eventType="editingDidEnd" id="CHf-WI-ape"/>
+                                </connections>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="or.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xav-mg-SKG">
                                 <rect key="frame" x="34" y="111" width="346" height="9"/>
@@ -696,6 +699,9 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <connections>
+                                    <action selector="nextButtonPressed:" destination="Hfj-0B-d0Z" eventType="editingDidEnd" id="G82-AH-ioA"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JuW-Wm-T5T">
                                 <rect key="frame" x="57" y="38" width="300" height="50"/>
@@ -752,6 +758,7 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                             </mask>
                         </variation>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="confirmPassword" destination="A0d-xG-wUz" id="oZi-vV-VMb"/>
@@ -1428,7 +1435,7 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
     <inferredMetricsTieBreakers>
         <segue reference="lJo-nV-1D2"/>
         <segue reference="Oqd-UJ-VDS"/>
-        <segue reference="hUE-wY-1W3"/>
+        <segue reference="lHT-bh-jnV"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
 </document>
