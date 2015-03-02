@@ -10,12 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView()
+    
+    
     @IBOutlet weak var unsuccessfulloginlabel: UILabel!
    
-    
     @IBAction func loginButtonPressed(sender: AnyObject) {
         
         self.performSegueWithIdentifier("jumpToLoginScreen", sender: self)
+    }
+    
+    
+        
+    
         
        /*     var loginAlert:UIAlertController = UIAlertController(title: "Sign Up / Login", message: "Please sign up or login", preferredStyle: UIAlertControllerStyle.Alert)
             
@@ -85,16 +92,26 @@ class ViewController: UIViewController {
     */
     
 
-    }
+
 
     @IBAction func registeredButtonPressed(sender: AnyObject) {
         
-     self.performSegueWithIdentifier("jumpToRegisterScreen", sender: self)
+     self.performSegueWithIdentifier("jumpToSignUpScreen", sender: self)
     
     
     }
 
     @IBAction func FbLoginButtonPressed(sender: AnyObject) {
+        
+        
+        activityIndicator = UIActivityIndicatorView(frame: CGRectMake(0, 0, 100, 100))
+        activityIndicator.center = self.view.center
+        activityIndicator.hidesWhenStopped = true
+        activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.WhiteLarge
+        view.addSubview(activityIndicator)
+        activityIndicator.startAnimating()
+        UIApplication.sharedApplication().beginIgnoringInteractionEvents()
+        
          var fbLoginView: FBLoginView = FBLoginView(readPermissions: ["email", "public_profile"])
         
         var permissions = ["public_profile", "email"]
@@ -103,6 +120,11 @@ class ViewController: UIViewController {
         
         PFFacebookUtils.logInWithPermissions(permissions, block: {
             (user: PFUser!, error: NSError!) -> Void in
+            
+            self.activityIndicator.stopAnimating()
+            UIApplication.sharedApplication().endIgnoringInteractionEvents()
+            
+            
             if user == nil {
                 NSLog("Uh oh. The user cancelled the Facebook login.")
                 self.unsuccessfulloginlabel.alpha = 1
@@ -112,7 +134,7 @@ class ViewController: UIViewController {
                 NSLog("User signed up and logged in through Facebook!")
                 
                 println("it reached this point")
-                self.performSegueWithIdentifier("fbJumpToUserProfile", sender: self)
+                self.performSegueWithIdentifier("fbUserJumpToUserProfile", sender: self)
                 
             } else {
                 NSLog("User logged in through Facebook!")

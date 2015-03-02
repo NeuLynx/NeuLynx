@@ -12,9 +12,12 @@ class SignUpViewController: UIViewController, UITextFieldDelegate{
 
   
     
-    @IBOutlet weak var email: UITextField!
+    @IBOutlet weak var username: UITextField!
+
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var confirmPassword: UITextField!
+    
+    var activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView()
     
     
     
@@ -22,6 +25,13 @@ class SignUpViewController: UIViewController, UITextFieldDelegate{
     
     // FACEBOOK LOG IN
     @IBAction func fbLoginButtonPressed(sender: AnyObject) {
+        activityIndicator = UIActivityIndicatorView(frame: CGRectMake(0, 0, 100, 100))
+        activityIndicator.center = self.view.center
+        activityIndicator.hidesWhenStopped = true
+        activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.WhiteLarge
+        view.addSubview(activityIndicator)
+        activityIndicator.startAnimating()
+        UIApplication.sharedApplication().beginIgnoringInteractionEvents()
         
         var fbLoginView: FBLoginView = FBLoginView(readPermissions: ["email", "public_profile"])
         
@@ -31,6 +41,11 @@ class SignUpViewController: UIViewController, UITextFieldDelegate{
         
         PFFacebookUtils.logInWithPermissions(permissions, block: {
             (user: PFUser!, error: NSError!) -> Void in
+            
+            self.activityIndicator.stopAnimating()
+            UIApplication.sharedApplication().endIgnoringInteractionEvents()
+            
+        
             if user == nil {
                 NSLog("Uh oh. The user cancelled the Facebook login.")
                 
@@ -40,7 +55,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate{
                 NSLog("User signed up and logged in through Facebook!")
                 
                 println("it reached this point")
-                self.performSegueWithIdentifier("fbJumpToUserProfile", sender: self)
+                self.performSegueWithIdentifier("jumpToUserProfile", sender: self)
                 
             } else {
                 NSLog("User logged in through Facebook!")
@@ -54,20 +69,86 @@ class SignUpViewController: UIViewController, UITextFieldDelegate{
         
     }
     
-    @IBAction func cancelButtonPressed(sender: AnyObject) {
-        self.performSegueWithIdentifier("backToFirstScreen", sender: self)
+    @IBAction func editDidEnd(sender: AnyObject) {
+        
+        
+        if isValidEmail(username.text) == false{
+            username.layer.cornerRadius = 8
+            username.layer.borderWidth = 2
+            username.layer.borderColor = UIColor.redColor().CGColor
+            username.placeholder = "Please enter a valid email"
+            
+            
+            
+        } else {
+            username.layer.cornerRadius = 8
+            username.layer.borderWidth = 2
+            username.layer.borderColor =
+                UIColor.greenColor().CGColor
+            username.textColor = UIColor.darkGrayColor()
+        }
+        
+        
+        if count(password.text) < 8 || count(confirmPassword.text) < 8 {
+            password.layer.cornerRadius = 8
+            password.layer.borderWidth = 2
+            password.layer.borderColor = UIColor.redColor().CGColor
+            password.textColor = UIColor.darkGrayColor()
+            password.placeholder = "Password must be at least 8 characters"
+            
+            confirmPassword.layer.cornerRadius = 8
+            confirmPassword.layer.borderWidth = 2
+            confirmPassword.layer.borderColor = UIColor.redColor().CGColor
+            confirmPassword.textColor = UIColor.darkGrayColor()
+            confirmPassword.placeholder = "password must be at least 8 characters"
+            
+        } else if password.text != confirmPassword.text{
+            password.layer.cornerRadius = 8
+            password.layer.borderWidth = 2
+            password.layer.borderColor = UIColor.redColor().CGColor
+            password.textColor = UIColor.darkGrayColor()
+            password.placeholder = "Password does not match"
+            
+            confirmPassword.layer.cornerRadius = 8
+            confirmPassword.layer.borderWidth = 2
+            confirmPassword.layer.borderColor = UIColor.redColor().CGColor
+            confirmPassword.textColor = UIColor.darkGrayColor()
+            confirmPassword.placeholder = "Password does not match"
+            
+        }
+        else {
+            password.layer.cornerRadius = 8
+            password.layer.borderWidth = 2
+            password.layer.borderColor = UIColor.greenColor().CGColor
+            confirmPassword.layer.cornerRadius = 8
+            confirmPassword.layer.borderWidth = 2
+            confirmPassword.layer.borderColor = UIColor.greenColor().CGColor
+        }
+        
     }
+    
+    
+    
+    @IBAction func cancelButtonPressed(sender: AnyObject) {
+        
+        self.performSegueWithIdentifier("jumpBackToMainScreen", sender: self)
+    }
+    
+   
     @IBAction func nextButtonPressed(sender: AnyObject) {
         //self.performSegueWithIdentifier("jumpToUserProfile", sender: self)
+        
+       
+        
         
         var error = ""
         
         
-        if email.text == "" || password.text == "" || confirmPassword.text == "" {
+        if username.text == "" || password.text == "" || confirmPassword.text == "" {
             //make the borders of each field red if any of them are empty
-           /* email.layer.cornerRadius = 8
-             email.layer.borderWidth = 2
-            email.layer.borderColor = UIColor.redColor().CGColor
+            username.layer.cornerRadius = 8
+            username.layer.borderWidth = 2
+            username.layer.borderColor = UIColor.redColor().CGColor
             
             password.layer.cornerRadius = 8
             password.layer.borderWidth = 2
@@ -75,53 +156,90 @@ class SignUpViewController: UIViewController, UITextFieldDelegate{
             
             confirmPassword.layer.cornerRadius = 8
             confirmPassword.layer.borderWidth = 2
-            confirmPassword.layer.borderColor = UIColor.redColor().CGColor*/
+            confirmPassword.layer.borderColor = UIColor.redColor().CGColor
             
-            error = "Please enter a username and password"
-           
-        }
-        
-            if isValidEmail(email.text) == false{
-                email.layer.cornerRadius = 8
-                email.layer.borderWidth = 2
-                email.layer.borderColor = UIColor.redColor().CGColor
-                email.text = "Please enter a valid email"
-                
-                
-                
-            } else {
-                email.layer.cornerRadius = 8
-                email.layer.borderWidth = 2
-                email.layer.borderColor = UIColor.greenColor().CGColor
-                
-        }
-        
-        
-        if count(password.text) < 8 {
+            error = "Please enter a valid username and password"
+            
+        } else if count(password.text) < 8 || count(confirmPassword.text) < 8 {
+            
+            
             password.layer.cornerRadius = 8
             password.layer.borderWidth = 2
             password.layer.borderColor = UIColor.redColor().CGColor
             
+            confirmPassword.layer.cornerRadius = 8
+            confirmPassword.layer.borderWidth = 2
+            confirmPassword.layer.borderColor = UIColor.redColor().CGColor
             
-        }else {
+            error = "Password must be at least 8 characters"
+        } else if password.text != confirmPassword.text {
+            
             password.layer.cornerRadius = 8
             password.layer.borderWidth = 2
-            password.layer.borderColor = UIColor.greenColor().CGColor
+            password.layer.borderColor = UIColor.redColor().CGColor
+            
+            confirmPassword.layer.cornerRadius = 8
+            confirmPassword.layer.borderWidth = 2
+            confirmPassword.layer.borderColor = UIColor.redColor().CGColor
+            
+            error = "Passwords do not match! Please try again!"
+        }
+        
+        //set up alert and display to user
+        if error != "" {
+            
+            
+            self.displayAlert("Error in Form", error: error)
+            
+        } else {
+            activityIndicator = UIActivityIndicatorView(frame: CGRectMake(0, 0, 100, 100))
+            activityIndicator.center = self.view.center
+            activityIndicator.hidesWhenStopped = true
+            activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.WhiteLarge
+            view.addSubview(activityIndicator)
+            activityIndicator.startAnimating()
+            UIApplication.sharedApplication().beginIgnoringInteractionEvents()
+            
+            var user = PFUser()
+            user.username = username.text
+            user.password = password.text
+            
+            user.signUpInBackgroundWithBlock {
+                (succeeded: Bool!, signupError: NSError!) -> Void in
+                
+                self.activityIndicator.stopAnimating()
+                UIApplication.sharedApplication().endIgnoringInteractionEvents()
+                
+                if signupError == nil  {
+                    // Hooray! Let them use the app now.
+                    
+                       println("signed up")
+                 
+                self.performSegueWithIdentifier("jumpToUserProfile2", sender: self)
+                    
+                    
+                 
+                    
+                    
+                } else {
+                    if let errorString = signupError.userInfo?["error"] as? NSString {
+                        
+                        error = errorString as! String
+                        
+                    } else {
+                        
+                        error = "Please try again later."
+                        
+                    }
+                    
+                    self.displayAlert("Could Not Sign Up", error: error)
+                    
+                }
+            }
+
             
         }
         
-        
-        //set up alert and display to user
-        /*if error != "" {
-            
-            var alert = UIAlertController(title: "Error in Register Form", message: error, preferredStyle: UIAlertControllerStyle.Alert)
-            alert.addAction(UIAlertAction(title: "OK", style: .Default, handler:{
-                action  in
-               self.dismissViewControllerAnimated(true, completion: nil)
-            }))
-            
-            self.presentViewController(alert, animated: true, completion: nil)
-        }*/
         
     }
   
@@ -129,8 +247,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate{
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        email.delegate = self
-        password.delegate = self
+      username.textColor = UIColor.darkGrayColor()
         
        
         
@@ -160,6 +277,18 @@ class SignUpViewController: UIViewController, UITextFieldDelegate{
         let result = range != nil ? true : false
         return result
 
+    }
+    func displayAlert(title:String, error:String) {
+        
+        var alert = UIAlertController(title: title, message: error, preferredStyle: UIAlertControllerStyle.Alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: { action in
+            
+            self.dismissViewControllerAnimated(true, completion: nil)
+            
+        }))
+        
+        self.presentViewController(alert, animated: true, completion: nil)
+        
     }
    
     /*
