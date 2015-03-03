@@ -45,22 +45,137 @@ class UserProfileViewController: UIViewController {
         let optionOneText = "Male"
         let optionTwoText = "Female"
         
-        let actionSheet = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.ActionSheet)
+        let optionMenu = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.ActionSheet)
+    
+    
+        let actionOne = UIAlertAction(title: optionOneText, style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.genderLabel.text = optionOneText
+        })
         
-        let actionOne = UIAlertAction(title: optionOneText, style: .Default, handler: nil)
-          let actionTwo = UIAlertAction(title: optionTwoText, style: .Default, handler: nil)
-        let cancelOption = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Cancel, handler: nil)
+        let actionTwo = UIAlertAction(title: optionTwoText, style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.genderLabel.text = optionTwoText
+         })
         
-        actionSheet.addAction(actionOne)
-        actionSheet.addAction(actionTwo)
-        actionSheet.addAction(cancelOption)
+        let cancelOption = UIAlertAction(title: "Cancel", style: .Cancel, handler: {
+            (alert: UIAlertAction!) -> Void in
+            println("Cancelled")
+        })
+        optionMenu.addAction(actionOne)
+        optionMenu.addAction(actionTwo)
+        optionMenu.addAction(cancelOption)
         
-        self.presentViewController(actionSheet, animated: true, completion: nil)
+        self.presentViewController(optionMenu, animated: true, completion: nil)
     }
     
     @IBAction func editOrientationButtonPressed(sender: AnyObject) {
+        let title = "Orientation"
+        let message = "Please select your Orientation"
+        
+        let optionOneText = "Straight"
+        let optionTwoText = "Gay"
+        let optionThreeText = "Lesbian"
+        let optionFourText = "Bisexual"
+        let optionFiveText = "Transexual"
+        
+        
+        
+        
+        let optionMenu = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.ActionSheet)
+        
+        
+        let actionOne = UIAlertAction(title: optionOneText, style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.orientationLabel.text = optionOneText
+        })
+        
+        let actionTwo = UIAlertAction(title: optionTwoText, style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.orientationLabel.text = optionTwoText
+        })
+        
+        let actionThree = UIAlertAction(title: optionThreeText, style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.orientationLabel.text = optionThreeText
+        })
+        let actionFour = UIAlertAction(title: optionFourText, style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.orientationLabel.text = optionFourText
+        })
+        let actionFive = UIAlertAction(title: optionFiveText, style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.orientationLabel.text = optionFiveText
+        })
+        
+        let cancelOption = UIAlertAction(title: "Cancel", style: .Cancel, handler: {
+            (alert: UIAlertAction!) -> Void in
+            println("Cancelled")
+        })
+        optionMenu.addAction(actionOne)
+        optionMenu.addAction(actionTwo)
+        optionMenu.addAction(actionThree)
+        optionMenu.addAction(actionFour)
+        optionMenu.addAction(actionFive)
+        optionMenu.addAction(cancelOption)
+        
+        self.presentViewController(optionMenu, animated: true, completion: nil)
+        
+        
+        
+        
     }
     @IBAction func editPersonalityButtonPressed(sender: AnyObject) {
+        let title = "Personality"
+        let message = "Please select your Personality"
+        
+        let optionOneText = "Adventurous"
+        let optionTwoText = "Shy"
+        let optionThreeText = "Funny"
+        let optionFourText = "Social"
+        let optionFiveText = "Wild"
+        
+        
+        
+        
+        let optionMenu = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.ActionSheet)
+        
+        
+        let actionOne = UIAlertAction(title: optionOneText, style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.personalityLabel.text = optionOneText
+        })
+        
+        let actionTwo = UIAlertAction(title: optionTwoText, style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.personalityLabel.text = optionTwoText
+        })
+        
+        let actionThree = UIAlertAction(title: optionThreeText, style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.personalityLabel.text = optionThreeText
+        })
+        let actionFour = UIAlertAction(title: optionFourText, style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.personalityLabel.text = optionFourText
+        })
+        let actionFive = UIAlertAction(title: optionFiveText, style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.personalityLabel.text = optionFiveText
+        })
+        
+        let cancelOption = UIAlertAction(title: "Cancel", style: .Cancel, handler: {
+            (alert: UIAlertAction!) -> Void in
+            println("Cancelled")
+        })
+        optionMenu.addAction(actionOne)
+        optionMenu.addAction(actionTwo)
+        optionMenu.addAction(actionThree)
+        optionMenu.addAction(actionFour)
+        optionMenu.addAction(actionFive)
+        optionMenu.addAction(cancelOption)
+        
+        self.presentViewController(optionMenu, animated: true, completion: nil)
     }
    
    
@@ -68,9 +183,111 @@ class UserProfileViewController: UIViewController {
     }
     
     @IBAction func editFact1ButtonPressed(sender: AnyObject) {
+        
+        let title = "Travel Facts"
+        let message = "Which best reflects your travel personality?"
+        
+        let optionOneText = "The Party Animal"
+        let optionTwoText = "The Planner"
+        let optionThreeText = "No-Expense/Zero Budget"
+        let optionFourText = "The Chiller"
+        let optionFiveText = "The Foodie"
+        
+        
+        
+        
+        let optionMenu = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.ActionSheet)
+        
+        
+        let actionOne = UIAlertAction(title: optionOneText, style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.fact1Label.text = optionOneText
+        })
+        
+        let actionTwo = UIAlertAction(title: optionTwoText, style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.fact1Label.text = optionTwoText
+        })
+        
+        let actionThree = UIAlertAction(title: optionThreeText, style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.fact1Label.text = optionThreeText
+        })
+        let actionFour = UIAlertAction(title: optionFourText, style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.fact1Label.text = optionFourText
+        })
+        let actionFive = UIAlertAction(title: optionFiveText, style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.fact1Label.text = optionFiveText
+        })
+        
+        let cancelOption = UIAlertAction(title: "Cancel", style: .Cancel, handler: {
+            (alert: UIAlertAction!) -> Void in
+            println("Cancelled")
+        })
+        optionMenu.addAction(actionOne)
+        optionMenu.addAction(actionTwo)
+        optionMenu.addAction(actionThree)
+        optionMenu.addAction(actionFour)
+        optionMenu.addAction(actionFive)
+        optionMenu.addAction(cancelOption)
+        
+        self.presentViewController(optionMenu, animated: true, completion: nil)
     }
   
     @IBAction func editFact2ButtonPressed(sender: AnyObject) {
+        let title = "Travel Facts"
+        let message = "Which best reflects your travel personality?"
+        
+        let optionOneText = "The Minimalist"
+        let optionTwoText = "The Repeater"
+        let optionThreeText = "The Lone Wolf"
+        let optionFourText = "The Know-It-All"
+        let optionFiveText = "The Group"
+        
+        
+        
+        
+        let optionMenu = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.ActionSheet)
+        
+        
+        let actionOne = UIAlertAction(title: optionOneText, style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.fact2Label.text = optionOneText
+        })
+        
+        let actionTwo = UIAlertAction(title: optionTwoText, style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.fact2Label.text = optionTwoText
+        })
+        
+        let actionThree = UIAlertAction(title: optionThreeText, style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.fact2Label.text = optionThreeText
+        })
+        let actionFour = UIAlertAction(title: optionFourText, style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.fact2Label.text = optionFourText
+        })
+        let actionFive = UIAlertAction(title: optionFiveText, style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.fact2Label.text = optionFiveText
+        })
+        
+        let cancelOption = UIAlertAction(title: "Cancel", style: .Cancel, handler: {
+            (alert: UIAlertAction!) -> Void in
+            println("Cancelled")
+        })
+        optionMenu.addAction(actionOne)
+        optionMenu.addAction(actionTwo)
+        optionMenu.addAction(actionThree)
+        optionMenu.addAction(actionFour)
+        optionMenu.addAction(actionFive)
+        optionMenu.addAction(cancelOption)
+        
+        self.presentViewController(optionMenu, animated: true, completion: nil)
+        
     }
     
     
