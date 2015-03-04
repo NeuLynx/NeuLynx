@@ -180,6 +180,10 @@ class UserProfileViewController: UIViewController {
    
    
     @IBAction func editLanguagesButtonPressed(sender: AnyObject) {
+        
+        
+        self.performSegueWithIdentifier("jumpToLanguages", sender: self)
+        
     }
     
     @IBAction func editFact1ButtonPressed(sender: AnyObject) {
@@ -189,7 +193,7 @@ class UserProfileViewController: UIViewController {
         
         let optionOneText = "The Party Animal"
         let optionTwoText = "The Planner"
-        let optionThreeText = "No-Expense/Zero Budget"
+        let optionThreeText = "Zero Budget"
         let optionFourText = "The Chiller"
         let optionFiveText = "The Foodie"
         
