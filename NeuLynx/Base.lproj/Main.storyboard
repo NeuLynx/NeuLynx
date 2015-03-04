@@ -17,403 +17,344 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mon-Da-ql2">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="3Jh-E6-Dsk"/>
-                                    <constraint firstAttribute="width" constant="414" id="FWt-b5-erR"/>
-                                </constraints>
-                                <items>
-                                    <navigationItem title="Terms/Conditions/Private Policy" id="ctW-Or-lPe"/>
-                                </items>
-                            </navigationBar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sgt-1W-tSy">
-                                <rect key="frame" x="57" y="44" width="300" height="736"/>
-                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sgt-1W-tSy">
+                                <rect key="frame" x="0.0" y="55" width="414" height="736"/>
+                                <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
                                 <color key="tintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="6Fm-Om-AaA"/>
                                     <constraint firstAttribute="height" constant="736" id="QbM-lN-LqB"/>
                                 </constraints>
                                 <attributedString key="attributedText">
+                                    <fragment content="NeuLynx Privacy Policy">
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
                                     <fragment>
-                                        <string key="content">NeuLynx Privacy Policy
-
-NeuLynx Inc., ("we," "Company," "us" or "our") has created this "Privacy Policy" to inform our
-
-customers ("you," "customer" or "your") about how we handle your personal information
-
-gathered on or in connection with your visit to and use of www.neulynx.com (the "NeuLynx
-
-Site") or the software applications made available by NeuLynx (we refer to the NeuLynx Site
-
-and the software applications made available by NeuLynx collectively, as the "Service"). This
-
-Privacy Policy does not apply to any other website or offline point of contact between the
-
-Company and you or any other party. By visiting or accessing the Service, you expressly
-
-consent to the use and disclosure of your information as described below.
-
-Information We Collect From You
-
-In order to operate the Service, we may collect: (i) "personal information," including, without
-
-limitation, your full name, postal address, phone number and email address; (ii) "password
-
-information"; (iii) "demographic information," including, without limitation, your zip code,
-
-hometown, gender, username, age/birth date, browsing history information, searching history
-
-information, registration history information, (iv) the content of communications sent to us and
-
-communications posted through the Service; (v) web logs and other standard data entries,
-
-including, without limitation, your IP address, page URL, browser type and timestamp; (vi)
-
-device and application IDs, and your mobile carrier; and (vii) other data about visitors to the
-
-NeuLynx Site who may not be our users. You have the option of not providing us with any of
-
-the foregoing information, in which case you may still be able to access some portions of the
-
-Service, although you may not be able to access certain services or areas.
-
-You may choose to publish your location through the Service. You may also tell us your
-
-location when you enable your computer or mobile device to send us location information. We
-
-may use and store information about your location to provide features of the Service and to
-
-improve and customize the Service.
-
-If you use an online third party property, such as Facebook, Twitter, or LinkedIn (each, a
-
-"Social Network"), to log in to the Service or otherwise to connect your account or to interact
-
-with the Service, the applicable Social Network may send us your registration or profile
-
-information on that service and other information that you authorize, including information
-
-regarding users on that service. This information enables certain features of the Service
-
-including the contact storing, search, and organization features and helps us improve the
-
-Service. Your activities on your applicable Social Networks are covered by their respective
-
-privacy policies and terms of use.
-
-We strive to protect children's personal information and to meet the standards of the
-
-Children's Online Privacy Protection Act, we do not knowingly collect any personal information
-
-from persons under the age of thirteen (13) that can be used to specifically identify them, and
-
-the Company does not permit persons under the age of thirteen (13) to use the Service. If we
-
-know you are under the age of thirteen (13), we will collect written consent from your legal
-
-parent or guardian by postal mail, electronic mail fax or phone, before we collect, use, store or
-
-disclose any personal information supplied by your interaction with the Service. Accordingly,
-
-you hereby agree that if you are under the age of thirteen (13), you will notify us accordingly
-
-and will provide us with the home or electronic mail address or other contact information of
-
-your legal parent or guardian from which we may obtain legal parental or guardian consent
-
-prior to your use of the Service. Further, legal parents and guardians may review any
-
-personal information we may collect from children under the age of thirteen (13) and request
-
-that we stop using and delete such information at any time by contacting
-
-support@neulynx.com. We will notify all legal parents and guardians upon any change to this
-
-Privacy Policy and other terms and conditions governing our collection of personal information
-
-that we previously received legal parental or guardian consent to collect.
-
-If you email us, we may keep your message, email address, and contact information to
-
-respond to your message.
-
-Use of Personal Information
-
-Your personal information will be kept confidential, and except as otherwise set forth in this
-
-Privacy Policy, we will not sell, rent or lease to others your personal information. We use your
-
-personal information to help us efficiently operate the Service, to contact you in connection
-
-with your transactions and other activities on the Service (including, but not limited to,
-
-confirmation emails or important news that could affect your relationship with the Company),
-
-and to forward messages to you from other Service users. These types of communications
-
-are known as "Operational Communications." In some cases, Operational Communications
-
-may also contain commercial messages, such as banner ads and special offers. By
-
-registering with the Company, you are agreeing to receive Operational Communications.
-
-We also use personal information to send you newsletters, information, offers and other
-
-promotional materials for the Company's services. We attempt to send you offers that are of
-
-value to you, such as discounts, exclusive offers or special event information. By registering
-
-with the Company, you are opting in to receive such emails. To stop receiving such emails
-
-(other than Operational Communications), please send a request email to
-
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+NeuLynx Inc., ("we," "Company," "us" or "our") has created this "Privacy Policy" to inform our customers ("you," "customer" or "your") about how we handle your personal information gathered on or in connection with your visit to and use of www.neulynx.com (the "NeuLynx Site") or the software applications made available by NeuLynx (we refer to the NeuLynx Site and the software applications made available by NeuLynx collectively, as the "Service"). ThisPrivacy Policy does not apply to any other website or offline point of contact between the Company and you or any other party. By visiting or accessing the Service, you expressly consent to the use and disclosure of your information as described below.  
+ 
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Information We Collect From You
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+In order to operate the Service, we may collect: (i) "personal information," including, without limitation, your full name, postal address, phone number and email address; (ii) "password information"; (iii) "demographic information," including, without limitation, your zip code, hometown, gender, username, age/birth date, browsing history information, searching history information, registration history information, (iv) the content of communications sent to us and communications posted through the Service; (v) web logs and other standard data entries, including, without limitation, your IP address, page URL, browser type and timestamp; (vi) device and application IDs, and your mobile carrier; and (vii) other data about visitors to the NeuLynx Site who may not be our users. You have the option of not providing us with any of the foregoing information, in which case you may still be able to access some portions of the Service, although you may not be able to access certain services or areas. You may choose to publish your location through the Service. You may also tell us your location when you enable your computer or mobile device to send us location information. We
+may use and store information about your location to provide features of the Service and to improve and customize the Service. If you use an online third party property, such as Facebook, Twitter, or LinkedIn (each, a "Social Network"), to log in to the Service or otherwise to connect your account or to interact
+with the Service, the applicable Social Network may send us your registration or profile information on that service and other information that you authorize, including information regarding users on that service. This information enables certain features of the Service including the contact storing, search, and organization features and helps us improve the Service. Your activities on your applicable Social Networks are covered by their respective privacy policies and terms of use. We strive to protect children's personal information and to meet the standards of the Children's Online Privacy Protection Act, we do not knowingly collect any personal information from persons under the age of thirteen (13) that can be used to specifically identify them, and the Company does not permit persons under the age of thirteen (13) to use the Service. If we know you are under the age of thirteen (13), we will collect written consent from your legal parent or guardian by postal mail, electronic mail fax or phone, before we collect, use, store or disclose any personal information supplied by your interaction with the Service. Accordingly, you hereby agree that if you are under the age of thirteen (13), you will notify us accordingly and will provide us with the home or electronic mail address or other contact information of your legal parent or guardian from which we may obtain legal parental or guardian consent prior to your use of the Service. Further, legal parents and guardians may review any personal information we may collect from children under the age of thirteen (13) and request that we stop using and delete such information at any time by contacting support@neulynx.com. We will notify all legal parents and guardians upon any change to this Privacy Policy and other terms and conditions governing our collection of personal information that we previously received legal parental or guardian consent to collect. If you email us, we may keep your message, email address, and contact information to respond to your message.
+ 
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Use of Personal Information
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Your personal information will be kept confidential, and except as otherwise set forth in this Privacy Policy, we will not sell, rent or lease to others your personal information. We use your personal information to help us efficiently operate the Service, to contact you in connection with your transactions and other activities on the Service (including, but not limited to, confirmation emails or important news that could affect your relationship with the Company), and to forward messages to you from other Service users. These types of communications
+are known as "Operational Communications." In some cases, Operational Communications may also contain commercial messages, such as banner ads and special offers. By registering with the Company, you are agreeing to receive Operational Communications. We also use personal information to send you newsletters, information, offers and other promotional materials for the Company's services. We attempt to send you offers that are of value to you, such as discounts, exclusive offers or special event information. By registering with the Company, you are opting in to receive such emails. To stop receiving such emails (other than Operational Communications), please send a request email to
 support@neulynx.com.
 
-Further, we may use your personal information to: (i) prevent prohibited or illegal activities on
-
-the Service; (ii) customize, measure and improve the Service, its content and advertising; (iii)
-
-inform you of changes to this Privacy Policy and our end user license agreement; and (iv)
-
-enforce our rights under our agreements with you. In certain instances, our response may be
-
-provided to other Service users or third parties as necessary to respond to any problem,
-
-Lastly, to operate the Service, including supporting your activities on the Service, we may
-
-share your personal information with our agents, representatives, contractors and service
-
-providers so they can provide us with support services such as authorization of email
-
-origination, receipt or support services, customer relationship management services, and
-
-promotional fulfillment. We prohibit these parties from using your information for any other
-
-Following termination or deactivation of your account with the Service, we may retain
-
-information, including profile information or other personal information, for a reasonable time
-
-for backup, audit, or regulatory purposes, or to fulfill a legal requirement.
-
-Special Cases When We Share Personal and Password
-
-Information
-
-Your personal information may be provided to a third party in the event of a transfer of
-
-ownership or assets, or a bankruptcy. We may also disclose personal information or
-
-password information when we determine that such disclosure is necessary to comply with
-
-applicable law, to cooperate with law enforcement, or to protect the interests or safety of the
-
-Company or visitors to or users of the Service. In such circumstances, you agree the
-
-Company may disclose such personal information and password information to the extent
-
-necessary. We may also disclose your personal information or password information to
-
-affiliated legal entities and businesses with whom we are under common corporate control.
-
-Whenever personal information or password information is disclosed under this paragraph,
-
-we may also disclose your demographic information on a non­anonymous basis. All of our
-
-affiliated legal entities and businesses that receive your personal information and
-
-demographic information from us will comply with the terms of this Privacy Policy with respect
-
-to their use and disclosure of such information.
-
-How We Use Demographic Information
-
-We may review all demographic information. We may use demographic information to tailor
-
-the Service and communications to your interests.
-
-Our Security Precautions
-
-The Service has industry standard security measures in place to protect the loss, misuse and
-
-integrity of the information under our control. Although we make good faith efforts to store the
-
-information collected by the Service in a secure operating environment that is not available to
-
-the public, no data transmissions over the Internet are guaranteed to be completely secure
-
-and we cannot guarantee complete security.
-
-Use of Other User's Information
-
-The Service provides various means of communicating with other Service users through
-
-which you may have access to other users' names, email addresses and other information.
-
-By using the Service, you agree that, with respect to other user's personally identifiable
-
-information that you obtain through your use of the Service, including, without limitation, first
-
-and last name, email, photo, hometown, and links to Social Network accounts or user names,
-
-as applicable, you will only use such information for: (i) Service related communications that
-
-are not unsolicited commercial messages; and (ii) any other purpose that such user expressly
-
-agrees to after adequate disclosure of such purpose. Under no circumstances can you
-
-disclose personally identifiable information about another user to any third party without our
-
-consent and the consent of such other user. We urge you to think carefully about including
-
-any specific information you may deem private on the Service.
-
-Cookies
-
-Like most websites, the NeuLynx Site uses cookies to keep track of your activity on the
-
-NeuLynx Site and enhance your experience on the NeuLynx Site. Cookies are strings of text
-
-and numbers that can identify your computer to us when you visit the NeuLynx Site. We also
-
-use cookies to deliver content specific to your interests, to save your password, and if you
-
-choose, to save other personal information so you do not have to reenter it each time you visit
-
-There are two types of cookies: session­based cookies and persistent­based cookies.
-
-Session­based cookies exist only during an online session. They disappear from your
-
-computer when you close your browser software or turn off your computer. Persistent­based
-
-cookies remain on your computer after you have closed your browser or turned off your
-
-computer. They include such information as a unique identifier for your browser. Standing
-
-alone, cookies do not contain personal data, and therefore do not identify you personally; they
-
-merely recognize your browser. Unless you choose to identify yourself to us by using the
-
-NeuLynx Site, you will remain anonymous to us.
-
-From time to time, we may engage third parties to track and analyze non­personally
-
-identifiable usage and volume statistical information from visitors to the NeuLynx Site to help
-
-us administer the NeuLynx Site and improve its quality. Such third parties may use cookies to
-
-help track visitor behavior, including visitor responsiveness to online advertisements, and may
-
-track visitor behavior across multiple websites. Such cookies will not be used to associate
-
-individual NeuLynx Site visitors with any personal data. As such, we do not respond to
-
-browser "do not track" requests. Except as otherwise set forth in the end user license
-
-agreement, all data collected by such third parties on our behalf is used only to provide us
-
-with information on NeuLynx Site usage and will not be shared with any other third parties.
-
-Third party advertisers on the NeuLynx Site may also place or read cookies on your browser.
-
-If you wish to disable these cookies, the "help" portion of the toolbar on most browsers will tell
-
-you how. However, if you set your browser to disable cookies, you may not be able to access
-
-certain areas on the NeuLynx Site.
-
-Your IP Address
-
-Each time you visit the NeuLynx Site, we automatically collect your IP address (which is a
-
-number that can be used to identify your location) and the web page from which you came. In
-
-order to administer and optimize the NeuLynx Site for you and to diagnose problems with the
-
-NeuLynx Site, we use your IP address to help identify you and to gather broad demographic
-
-information about you. We may also collect the URL from which you came to the NeuLynx
-
-Site and the URLs visited on the NeuLynx Site. A URL is the full address of a website page.
-
-Please review this Privacy Policy periodically as we may modify it from time to time, which
-
-modifications shall be effective once posted on the NeuLynx Site. Each time you visit the
-
-NeuLynx Site or provide us with information, you are accepting the practices described in the
-
-"Information We Collect From You" paragraph set forth above in this Privacy Policy.
-
-Changing Our Privacy Policy for Previously Gathered
-
-Information
-
-If, at any point, we decide to use particular personally identifiable information in a manner
-
-different from that stated at the time it was collected, we will notify users by way of an email or
-
-by providing seven (7) days' notice on the NeuLynx Site. Please note that we will continue to
-
-have the right to change this Privacy Policy and practices, and how we use your
-
-non­personally identifiable information, without notice, as described in the "Information We
-
-Collect From You" paragraph set forth above in this Privacy Policy.
-
-How You Can Access and Update Your Email
-
-Preferences and Information
-
-We give you the opportunity to opt­out of certain communications and modify personal
-
-information or demographic information you have provided to us, and to hide demographic
-
-information from, or make demographic information visible to, the public users of the NeuLynx
-
-Site, at any time by going to the "My Account" section of the NeuLynx Site. Please be aware
-
-that it may take several hours for the changes you make to take effect on the public areas of
-
-the Service. We thank you for your patience. Please note that changing or deleting your
-
-information through the "My Account" section of the NeuLynx Site, or otherwise opting­out of
-
-receipt of email communications from the Company, will only change or delete the data in our
-
-database for purposes of future activities on the Service and for managing future
-
-communications from the Company. These changes and deletions will not change or delete
-
-emails or information that we may have already forwarded to other users or any other third
-
-parties, all as provided above in this Privacy Policy.
-
-If you have any questions or concerns about this Privacy Policy, the practices of the Service,
-
-or your dealings with the Service, you can contact us at support@neulynx.com.</string>
+Further, we may use your personal information to: (i) prevent prohibited or illegal activities on the Service; (ii) customize, measure and improve the Service, its content and advertising; (iii)inform you of changes to this Privacy Policy and our end user license agreement; and (iv) enforce our rights under our agreements with you. In certain instances, our response may be provided to other Service users or third parties as necessary to respond to any problem, Lastly, to operate the Service, including supporting your activities on the Service, we may share your personal information with our agents, representatives, contractors and service providers so they can provide us with support services such as authorization of email origination, receipt or support services, customer relationship management services, and promotional fulfillment. We prohibit these parties from using your information for any other Following termination or deactivation of your account with the Service, we may retain information, including profile information or other personal information, for a reasonable time
+for backup, audit, or regulatory purposes, or to fulfill a legal requirement. Special Cases When We Share Personal and Password Information. Your personal information may be provided to a third party in the event of a transfer of
+ownership or assets, or a bankruptcy. We may also disclose personal information or password information when we determine that such disclosure is necessary to comply with applicable law, to cooperate with law enforcement, or to protect the interests or safety of the Company or visitors to or users of the Service. In such circumstances, you agree the Company may disclose such personal information and password information to the extent necessary. We may also disclose your personal information or password information to affiliated legal entities and businesses with whom we are under common corporate control. Whenever personal information or password information is disclosed under this paragraph,
+we may also disclose your demographic information on a non­anonymous basis. All of our affiliated legal entities and businesses that receive your personal information and demographic information from us will comply with the terms of this Privacy Policy with respect to their use and disclosure of such information.
+
+</string>
                                         <attributes>
-                                            <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural"/>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">How We Use Demographic Information
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+We may review all demographic information. We may use demographic information to tailor the Service and communications to your interests.
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Our Security Precautions
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+The Service has industry standard security measures in place to protect the loss, misuse and integrity of the information under our control. Although we make good faith efforts to store the information collected by the Service in a secure operating environment that is not available to the public, no data transmissions over the Internet are guaranteed to be completely secure and we cannot guarantee complete security.
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Use of Other User's Information
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+The Service provides various means of communicating with other Service users through which you may have access to other users' names, email addresses and other information. By using the Service, you agree that, with respect to other user's personally identifiable information that you obtain through your use of the Service, including, without limitation, first and last name, email, photo, hometown, and links to Social Network accounts or user names, as applicable, you will only use such information for: (i) Service related communications that are not unsolicited commercial messages; and (ii) any other purpose that such user expressly agrees to after adequate disclosure of such purpose. Under no circumstances can you disclose personally identifiable information about another user to any third party without our consent and the consent of such other user. We urge you to think carefully about including any specific information you may deem private on the Service.
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Cookies
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Like most websites, the NeuLynx Site uses cookies to keep track of your activity on the NeuLynx Site and enhance your experience on the NeuLynx Site. Cookies are strings of text and numbers that can identify your computer to us when you visit the NeuLynx Site. We also use cookies to deliver content specific to your interests, to save your password, and if you choose, to save other personal information so you do not have to reenter it each time you visit There are two types of cookies: session ­based cookies and persistent­ based cookies. Session­ based cookies exist only during an online session. They disappear from your computer when you close your browser software or turn off your computer. Persistent­based cookies remain on your computer after you have closed your browser or turned off your computer. They include such information as a unique identifier for your browser. Standing alone, cookies do not contain personal data, and therefore do not identify you personally; they merely recognize your browser. Unless you choose to identify yourself to us by using the NeuLynx Site, you will remain anonymous to us. From time to time, we may engage third parties to track and analyze non­personally identifiable usage and volume statistical information from visitors to the NeuLynx Site to help us administer the NeuLynx Site and improve its quality. Such third parties may use cookies to help track visitor behavior, including visitor responsiveness to online advertisements, and may track visitor behavior across multiple websites. Such cookies will not be used to associate individual NeuLynx Site visitors with any personal data. As such, we do not respond to browser "do not track" requests. Except as otherwise set forth in the end user license agreement, all data collected by such third parties on our behalf is used only to provide us with information on NeuLynx Site usage and will not be shared with any other third parties. Third party advertisers on the NeuLynx Site may also place or read cookies on your browser. If you wish to disable these cookies, the "help" portion of the toolbar on most browsers will tell you how. However, if you set your browser to disable cookies, you may not be able to access certain areas on the NeuLynx Site.
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Your IP Address
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Each time you visit the NeuLynx Site, we automatically collect your IP address (which is a number that can be used to identify your location) and the web page from which you came. In order to administer and optimize the NeuLynx Site for you and to diagnose problems with the NeuLynx Site, we use your IP address to help identify you and to gather broad demographic information about you. We may also collect the URL from which you came to the NeuLynx Site and the URLs visited on the NeuLynx Site. A URL is the full address of a website page. Please review this Privacy Policy periodically as we may modify it from time to time, which modifications shall be effective once posted on the NeuLynx Site. Each time you visit the NeuLynx Site or provide us with information, you are accepting the practices described in the "Information We Collect From You" paragraph set forth above in this Privacy Policy. 
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Changing Our Privacy Policy for Previously Gathered Information">
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> 
+
+If, at any point, we decide to use particular personally identifiable information in a manner</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="different from that stated at the time it was collected, we will notify users by way of an email or">
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="by providing seven (7) days' notice on the NeuLynx Site. Please note that we will continue to">
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="have the right to change this Privacy Policy and practices, and how we use your">
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="non­personally identifiable information, without notice, as described in the &quot;Information We">
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Collect From You&quot; paragraph set forth above in this Privacy Policy.">
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">How You Can Access and Update Your Email Preferences and Information
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+We give you the opportunity to opt­out of certain communications and modify personal information or demographic information you have provided to us, and to hide demographic information from, or make demographic information visible to, the public users of the NeuLynx Site, at any time by going to the "My Account" section of the NeuLynx Site. Please be aware that it may take several hours for the changes you make to take effect on the public areas of the Service. We thank you for your patience. Please note that changing or deleting your information through the "My Account" section of the NeuLynx Site, or otherwise opting­out of receipt of email communications from the Company, will only change or delete the data in our database for purposes of future activities on the Service and for managing future communications from the Company. These changes and deletions will not change or delete emails or information that we may have already forwarded to other users or any other third parties, all as provided above in this Privacy Policy. If you have any questions or concerns about this Privacy Policy, the practices of the Service, or your dealings with the Service, you can contact us at support@neulynx.com.
+
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="6Fm-Om-AaA"/>
+                                        <exclude reference="QbM-lN-LqB"/>
+                                    </mask>
+                                </variation>
                             </textView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mon-Da-ql2">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="55"/>
+                                <rect key="contentStretch" x="0.0" y="0.49999999999999961" width="1" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="0Fh-YB-UFD"/>
+                                    <constraint firstAttribute="height" constant="44" id="3Jh-E6-Dsk"/>
+                                    <constraint firstAttribute="width" constant="414" id="FWt-b5-erR"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="Gyn-8a-oZR"/>
+                                    <constraint firstAttribute="height" constant="44" id="LT2-e7-qzy"/>
+                                    <constraint firstAttribute="height" constant="55" id="deu-9r-5lD"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="414" id="hQ5-nZ-1yE"/>
+                                </constraints>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="0.0"/>
+                                    <color key="textColor" red="0.0" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Terms/Conditions/Private Policy" id="ctW-Or-lPe"/>
+                                </items>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="0Fh-YB-UFD"/>
+                                        <exclude reference="3Jh-E6-Dsk"/>
+                                        <exclude reference="FWt-b5-erR"/>
+                                        <exclude reference="Gyn-8a-oZR"/>
+                                        <exclude reference="LT2-e7-qzy"/>
+                                        <exclude reference="hQ5-nZ-1yE"/>
+                                    </mask>
+                                </variation>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="mon-Da-ql2" firstAttribute="top" secondItem="yXz-ev-nSD" secondAttribute="topMargin" id="F7X-LY-ecs"/>
-                            <constraint firstItem="sgt-1W-tSy" firstAttribute="top" secondItem="mon-Da-ql2" secondAttribute="bottom" id="Wcf-mU-zA3"/>
-                            <constraint firstAttribute="centerX" secondItem="mon-Da-ql2" secondAttribute="centerX" id="oO5-To-kyf"/>
-                            <constraint firstAttribute="centerX" secondItem="sgt-1W-tSy" secondAttribute="centerX" id="pCH-pK-ZsI"/>
+                            <constraint firstItem="mon-Da-ql2" firstAttribute="top" secondItem="yXz-ev-nSD" secondAttribute="top" id="6Q7-fx-6Dd"/>
+                            <constraint firstItem="mon-Da-ql2" firstAttribute="leading" secondItem="yXz-ev-nSD" secondAttribute="leading" id="6k3-QZ-s4z"/>
+                            <constraint firstItem="sgt-1W-tSy" firstAttribute="leading" secondItem="yXz-ev-nSD" secondAttribute="leadingMargin" constant="-16" id="CXm-R0-84h"/>
+                            <constraint firstItem="sgt-1W-tSy" firstAttribute="top" secondItem="mon-Da-ql2" secondAttribute="bottom" id="O9Q-Ka-aBh"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="sgt-1W-tSy" secondAttribute="bottom" constant="-55" id="YPH-kF-HX4"/>
+                            <constraint firstItem="sgt-1W-tSy" firstAttribute="centerX" secondItem="mon-Da-ql2" secondAttribute="centerX" id="fPq-2Q-9Jf"/>
+                            <constraint firstAttribute="trailing" secondItem="mon-Da-ql2" secondAttribute="trailing" id="rcx-lA-aRD"/>
                         </constraints>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vde-nS-qbi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-182" y="-116"/>
+            <point key="canvasLocation" x="-108" y="-479"/>
         </scene>
         <!--Initial Login Screen-->
         <scene sceneID="tne-QT-ifu">
@@ -451,6 +392,9 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                                     <color key="titleColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="termsConditionsPolicyButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="36o-tD-vQA"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bV5-HI-8jh">
                                 <rect key="frame" x="57" y="632" width="300" height="46"/>
@@ -584,6 +528,7 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                         <segue destination="Hfj-0B-d0Z" kind="presentation" identifier="jumpToSignUpScreen" modalTransitionStyle="crossDissolve" id="y7N-G4-1kE"/>
                         <segue destination="yvO-hQ-1zI" kind="presentation" identifier="fbUserJumpToUserProfile" modalTransitionStyle="crossDissolve" id="UEK-1j-SUb"/>
                         <segue destination="t4E-DN-Anc" kind="presentation" identifier="presentTermsConditions" modalTransitionStyle="crossDissolve" id="kDL-9O-B50"/>
+                        <segue destination="MA8-LB-ro9" kind="presentation" identifier="jumpToMap" id="ir8-DB-7uq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -772,7 +717,7 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                         <outlet property="username" destination="sGV-9U-ak8" id="su9-bW-Hmi"/>
                         <segue destination="BYZ-38-t0r" kind="presentation" identifier="jumpBackToMainScreen" modalTransitionStyle="crossDissolve" id="cgd-44-Yws"/>
                         <segue destination="yvO-hQ-1zI" kind="presentation" identifier="jumpToUserProfile" modalTransitionStyle="crossDissolve" id="3lu-yO-6qH"/>
-                        <segue destination="MA8-LB-ro9" kind="presentation" identifier="jumptomap" modalTransitionStyle="crossDissolve" id="yZX-di-ZsN"/>
+                        <segue destination="MA8-LB-ro9" kind="presentation" identifier="jumpToMap" modalTransitionStyle="crossDissolve" id="yZX-di-ZsN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yzB-YF-4Hl" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -971,6 +916,7 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                         <outlet property="password" destination="1oe-cR-BI8" id="VGC-6m-8Ly"/>
                         <segue destination="BYZ-38-t0r" kind="presentation" identifier="jumpBackToMainScreen" modalTransitionStyle="crossDissolve" id="hYL-cd-5kE"/>
                         <segue destination="yvO-hQ-1zI" kind="presentation" identifier="fbUserJumpToUserProfile" modalTransitionStyle="crossDissolve" id="Mbt-5b-AW9"/>
+                        <segue destination="MA8-LB-ro9" kind="presentation" identifier="jumpToMap" modalTransitionStyle="crossDissolve" id="XNS-7Z-dJQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QiQ-et-B16" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1520,62 +1466,91 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="7na-4i-paN">
-                                <rect key="frame" x="0.0" y="46" width="414" height="643"/>
+                                <rect key="frame" x="0.0" y="47" width="414" height="643"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="414" id="k3x-NH-bp3"/>
                                     <constraint firstAttribute="height" constant="643" id="nJF-RS-mmu"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="MA8-LB-ro9" id="7YB-qv-wzH"/>
+                                </connections>
                             </mapView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2uL-6E-VVY">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="55"/>
+                                <rect key="contentStretch" x="0.0" y="0.70000000000000007" width="1" height="1"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="FkD-kn-0lD"/>
+                                    <constraint firstAttribute="height" constant="55" id="FkD-kn-0lD"/>
                                     <constraint firstAttribute="width" constant="414" id="ZPi-ds-h1V"/>
                                 </constraints>
+                                <color key="barTintColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.0" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="textShadowColor" red="0.0" green="0.40000000000000002" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                </textAttributes>
                                 <items>
                                     <navigationItem title="Find an Event" id="o4l-LH-mm6"/>
                                 </items>
                             </navigationBar>
-                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OQs-u5-qnN">
-                                <rect key="frame" x="0.0" y="687" width="414" height="49"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0.png" translatesAutoresizingMaskIntoConstraints="NO" id="DdD-YL-gpd">
+                                <rect key="frame" x="3" y="17" width="30" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="414" id="t41-Df-vP4"/>
-                                    <constraint firstAttribute="height" constant="49" id="z1T-lC-nLp"/>
+                                    <constraint firstAttribute="width" constant="30" id="eRe-RS-yrE"/>
+                                    <constraint firstAttribute="height" constant="30" id="gxa-PX-tHI"/>
+                                </constraints>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xfu-Xe-2NM">
+                                <rect key="frame" x="0.0" y="692" width="414" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="qm3-rl-pcI"/>
+                                    <constraint firstAttribute="height" constant="44" id="x6W-XX-Bmy"/>
                                 </constraints>
                                 <items>
-                                    <tabBarItem image="cultural.png" id="3zH-iL-fKf">
-                                        <inset key="imageInsets" minX="6" minY="16" maxX="8" maxY="3"/>
-                                    </tabBarItem>
-                                    <tabBarItem systemItem="more" id="Fmh-xl-h0v"/>
+                                    <barButtonItem enabled="NO" image="cultural.png" id="HeC-fA-01k">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-5"/>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="3II-5Z-VG6"/>
+                                    <barButtonItem enabled="NO" image="festival.png" id="mal-9e-fDN">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-5"/>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="LdE-bv-b4m"/>
+                                    <barButtonItem enabled="NO" image="gastronomy.png" id="G5E-jr-WkQ">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-5"/>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="9h0-Ar-CfP"/>
+                                    <barButtonItem enabled="NO" image="nightout.png" id="Kxc-uV-SMt">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-5"/>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="lEC-6S-6uj"/>
+                                    <barButtonItem enabled="NO" image="outdoors.png" id="tyI-Un-mTh">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-5"/>
+                                    </barButtonItem>
                                 </items>
-                            </tabBar>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="7na-4i-paN" secondAttribute="centerY" id="6Xc-iy-BLi"/>
                             <constraint firstItem="2uL-6E-VVY" firstAttribute="top" secondItem="oGu-8o-8A4" secondAttribute="topMargin" id="EJl-6D-tVT"/>
-                            <constraint firstAttribute="centerY" secondItem="7na-4i-paN" secondAttribute="centerY" id="GRb-Xg-2yo"/>
-                            <constraint firstAttribute="centerX" secondItem="OQs-u5-qnN" secondAttribute="centerX" id="P48-JR-reA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Xfu-Xe-2NM" secondAttribute="trailing" constant="-16" id="Ef4-zB-wvw"/>
+                            <constraint firstItem="Xfu-Xe-2NM" firstAttribute="top" secondItem="NfR-Ii-PET" secondAttribute="bottom" id="UC9-Da-D3c"/>
+                            <constraint firstItem="DdD-YL-gpd" firstAttribute="leading" secondItem="oGu-8o-8A4" secondAttribute="leadingMargin" constant="-13" id="WeC-Rv-XHM"/>
+                            <constraint firstItem="Xfu-Xe-2NM" firstAttribute="leading" secondItem="oGu-8o-8A4" secondAttribute="leadingMargin" constant="-16" id="Wp2-3f-BBd"/>
                             <constraint firstAttribute="centerX" secondItem="7na-4i-paN" secondAttribute="centerX" id="d3C-5J-e1F"/>
-                            <constraint firstAttribute="centerX" secondItem="7na-4i-paN" secondAttribute="centerX" id="hlK-Kz-4wC"/>
+                            <constraint firstItem="DdD-YL-gpd" firstAttribute="top" secondItem="oGu-8o-8A4" secondAttribute="topMargin" constant="17" id="dWe-Kf-fqn"/>
+                            <constraint firstItem="Xfu-Xe-2NM" firstAttribute="bottom" secondItem="oGu-8o-8A4" secondAttribute="bottomMargin" id="hXb-LI-elR"/>
                             <constraint firstAttribute="centerX" secondItem="2uL-6E-VVY" secondAttribute="centerX" id="kiI-DB-p6f"/>
-                            <constraint firstItem="NfR-Ii-PET" firstAttribute="top" secondItem="OQs-u5-qnN" secondAttribute="bottom" id="uxi-lQ-mip"/>
-                            <constraint firstAttribute="centerX" secondItem="7na-4i-paN" secondAttribute="centerX" id="zVE-fK-kL5"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="GRb-Xg-2yo"/>
-                                <exclude reference="hlK-Kz-4wC"/>
-                                <exclude reference="zVE-fK-kL5"/>
-                            </mask>
-                        </variation>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="profileImage" destination="DdD-YL-gpd" id="lA8-e3-rNc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Cx-53-a9F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2378" y="-387"/>
+            <point key="canvasLocation" x="975" y="1013"/>
         </scene>
     </scenes>
     <resources>
@@ -1597,13 +1572,17 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
         <image name="cultural.png" width="60" height="60"/>
         <image name="defaultimage.png" width="1200" height="1200"/>
         <image name="editbutton.png" width="35" height="35"/>
+        <image name="festival.png" width="60" height="60"/>
+        <image name="gastronomy.png" width="60" height="60"/>
         <image name="next.png" width="252" height="145"/>
+        <image name="nightout.png" width="60" height="60"/>
         <image name="or.png" width="1122" height="22"/>
+        <image name="outdoors.png" width="60" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="DyJ-DM-xTw"/>
-        <segue reference="UEK-1j-SUb"/>
-        <segue reference="QeQ-y0-leu"/>
+        <segue reference="yZX-di-ZsN"/>
+        <segue reference="cgd-44-Yws"/>
+        <segue reference="3lu-yO-6qH"/>
     </inferredMetricsTieBreakers>
-    <color key="tintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+    <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>

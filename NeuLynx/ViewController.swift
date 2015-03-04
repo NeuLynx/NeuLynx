@@ -15,6 +15,10 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var unsuccessfulloginlabel: UILabel!
    
+    @IBAction func termsConditionsPolicyButtonPressed(sender: AnyObject) {
+        
+        self.performSegueWithIdentifier("presentTermsConditions", sender: self)
+    }
     @IBAction func loginButtonPressed(sender: AnyObject) {
         
         self.performSegueWithIdentifier("jumpToLoginScreen", sender: self)

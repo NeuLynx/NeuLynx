@@ -62,6 +62,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate{
                 
                 //make sure to remove
                 self.performSegueWithIdentifier("jumpToMap", sender: self)
+                
             }
         })
         

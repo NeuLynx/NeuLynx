@@ -36,6 +36,18 @@
 		F23D53601A99735B00B22736 /* nightout.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D535B1A99735B00B22736 /* nightout.png */; };
 		F23D53611A99735B00B22736 /* outdoors.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D535C1A99735B00B22736 /* outdoors.png */; };
 		F2A5FA991AA6446E00E1ECA5 /* LanguageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A5FA981AA6446E00E1ECA5 /* LanguageTableViewController.swift */; };
+		F2A5FA9B1AA6D83000E1ECA5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A5FA9A1AA6D83000E1ECA5 /* MapKit.framework */; };
+		F2A5FAB21AA7AB2900E1ECA5 /* NeuLynx29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A5FAA81AA7AB2900E1ECA5 /* NeuLynx29x29.png */; };
+		F2A5FAB31AA7AB2900E1ECA5 /* NeuLynx40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A5FAA91AA7AB2900E1ECA5 /* NeuLynx40x40.png */; };
+		F2A5FAB41AA7AB2900E1ECA5 /* NeuLynx58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A5FAAA1AA7AB2900E1ECA5 /* NeuLynx58x58.png */; };
+		F2A5FAB51AA7AB2900E1ECA5 /* NeuLynx60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A5FAAB1AA7AB2900E1ECA5 /* NeuLynx60x60.png */; };
+		F2A5FAB61AA7AB2900E1ECA5 /* NeuLynx76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A5FAAC1AA7AB2900E1ECA5 /* NeuLynx76x76.png */; };
+		F2A5FAB71AA7AB2900E1ECA5 /* NeuLynx80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A5FAAD1AA7AB2900E1ECA5 /* NeuLynx80x80.png */; };
+		F2A5FAB81AA7AB2900E1ECA5 /* NeuLynx87x87.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A5FAAE1AA7AB2900E1ECA5 /* NeuLynx87x87.png */; };
+		F2A5FAB91AA7AB2900E1ECA5 /* NeuLynx114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A5FAAF1AA7AB2900E1ECA5 /* NeuLynx114x114.png */; };
+		F2A5FABA1AA7AB2900E1ECA5 /* NeuLynx120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A5FAB01AA7AB2900E1ECA5 /* NeuLynx120x120.png */; };
+		F2A5FABB1AA7AB2900E1ECA5 /* NeuLynx180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A5FAB11AA7AB2900E1ECA5 /* NeuLynx180x180.png */; };
+		F2A5FABD1AA7B2C900E1ECA5 /* NeuLynx152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A5FABC1AA7B2C900E1ECA5 /* NeuLynx152x152.png */; };
 		F2BBB9C41A9C2C4000AD3D03 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D533E1A986C7700B22736 /* UserProfileViewController.swift */; };
 		F2BD7EFB1A95C3A700035453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BD7EFA1A95C3A700035453 /* AppDelegate.swift */; };
 		F2BD7EFE1A95C3A700035453 /* NeuLynx.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2BD7EFC1A95C3A700035453 /* NeuLynx.xcdatamodeld */; };
@@ -44,17 +56,6 @@
 		F2BD7F051A95C3A700035453 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BD7F041A95C3A700035453 /* Images.xcassets */; };
 		F2BD7F081A95C3A700035453 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2BD7F061A95C3A700035453 /* LaunchScreen.xib */; };
 		F2BD7F141A95C3A700035453 /* NeuLynxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BD7F131A95C3A700035453 /* NeuLynxTests.swift */; };
-		F2BD7F291A95C66D00035453 /* NeuLynx29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BD7F1E1A95C66D00035453 /* NeuLynx29x29.png */; };
-		F2BD7F2A1A95C66D00035453 /* NeuLynx40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BD7F1F1A95C66D00035453 /* NeuLynx40x40.png */; };
-		F2BD7F2B1A95C66D00035453 /* NeuLynx58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BD7F201A95C66D00035453 /* NeuLynx58x58.png */; };
-		F2BD7F2C1A95C66D00035453 /* NeuLynx60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BD7F211A95C66D00035453 /* NeuLynx60x60.png */; };
-		F2BD7F2D1A95C66D00035453 /* NeuLynx76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BD7F221A95C66D00035453 /* NeuLynx76x76.png */; };
-		F2BD7F2E1A95C66D00035453 /* NeuLynx80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BD7F231A95C66D00035453 /* NeuLynx80x80.png */; };
-		F2BD7F2F1A95C66D00035453 /* NeuLynx87x87.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BD7F241A95C66D00035453 /* NeuLynx87x87.png */; };
-		F2BD7F301A95C66D00035453 /* NeuLynx120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BD7F251A95C66D00035453 /* NeuLynx120x120.png */; };
-		F2BD7F311A95C66D00035453 /* NeuLynx152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BD7F261A95C66D00035453 /* NeuLynx152x152.png */; };
-		F2BD7F321A95C66D00035453 /* NeuLynx180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BD7F271A95C66D00035453 /* NeuLynx180x180.png */; };
-		F2BD7F331A95C66D00035453 /* NeuLynxIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BD7F281A95C66D00035453 /* NeuLynxIcon.png */; };
 		F2BD7F351A95CCB100035453 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BD7F341A95CCB000035453 /* FacebookSDK.framework */; };
 		F2BD7F3C1A95CFFA00035453 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BD7F391A95CFFA00035453 /* Bolts.framework */; };
 		F2BD7F3D1A95CFFA00035453 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BD7F3A1A95CFFA00035453 /* Parse.framework */; };
@@ -114,6 +115,18 @@
 		F23D535B1A99735B00B22736 /* nightout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nightout.png; sourceTree = "<group>"; };
 		F23D535C1A99735B00B22736 /* outdoors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outdoors.png; sourceTree = "<group>"; };
 		F2A5FA981AA6446E00E1ECA5 /* LanguageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageTableViewController.swift; sourceTree = "<group>"; };
+		F2A5FA9A1AA6D83000E1ECA5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F2A5FAA81AA7AB2900E1ECA5 /* NeuLynx29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NeuLynx29x29.png; sourceTree = "<group>"; };
+		F2A5FAA91AA7AB2900E1ECA5 /* NeuLynx40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NeuLynx40x40.png; sourceTree = "<group>"; };
+		F2A5FAAA1AA7AB2900E1ECA5 /* NeuLynx58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NeuLynx58x58.png; sourceTree = "<group>"; };
+		F2A5FAAB1AA7AB2900E1ECA5 /* NeuLynx60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NeuLynx60x60.png; sourceTree = "<group>"; };
+		F2A5FAAC1AA7AB2900E1ECA5 /* NeuLynx76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NeuLynx76x76.png; sourceTree = "<group>"; };
+		F2A5FAAD1AA7AB2900E1ECA5 /* NeuLynx80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NeuLynx80x80.png; sourceTree = "<group>"; };
+		F2A5FAAE1AA7AB2900E1ECA5 /* NeuLynx87x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NeuLynx87x87.png; sourceTree = "<group>"; };
+		F2A5FAAF1AA7AB2900E1ECA5 /* NeuLynx114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NeuLynx114x114.png; sourceTree = "<group>"; };
+		F2A5FAB01AA7AB2900E1ECA5 /* NeuLynx120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NeuLynx120x120.png; sourceTree = "<group>"; };
+		F2A5FAB11AA7AB2900E1ECA5 /* NeuLynx180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NeuLynx180x180.png; sourceTree = "<group>"; };
+		F2A5FABC1AA7B2C900E1ECA5 /* NeuLynx152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NeuLynx152x152.png; sourceTree = "<group>"; };
 		F2BD7EF51A95C3A700035453 /* NeuLynx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuLynx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BD7EF91A95C3A700035453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2BD7EFA1A95C3A700035453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -125,17 +138,6 @@
 		F2BD7F0D1A95C3A700035453 /* NeuLynxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuLynxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BD7F121A95C3A700035453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2BD7F131A95C3A700035453 /* NeuLynxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuLynxTests.swift; sourceTree = "<group>"; };
-		F2BD7F1E1A95C66D00035453 /* NeuLynx29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NeuLynx29x29.png; path = ../../../Dropbox/iOSNeuLynxItems/NeuLynx29x29.png; sourceTree = "<group>"; };
-		F2BD7F1F1A95C66D00035453 /* NeuLynx40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NeuLynx40x40.png; path = ../../../Dropbox/iOSNeuLynxItems/NeuLynx40x40.png; sourceTree = "<group>"; };
-		F2BD7F201A95C66D00035453 /* NeuLynx58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NeuLynx58x58.png; path = ../../../Dropbox/iOSNeuLynxItems/NeuLynx58x58.png; sourceTree = "<group>"; };
-		F2BD7F211A95C66D00035453 /* NeuLynx60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NeuLynx60x60.png; path = ../../../Dropbox/iOSNeuLynxItems/NeuLynx60x60.png; sourceTree = "<group>"; };
-		F2BD7F221A95C66D00035453 /* NeuLynx76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NeuLynx76x76.png; path = ../../../Dropbox/iOSNeuLynxItems/NeuLynx76x76.png; sourceTree = "<group>"; };
-		F2BD7F231A95C66D00035453 /* NeuLynx80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NeuLynx80x80.png; path = ../../../Dropbox/iOSNeuLynxItems/NeuLynx80x80.png; sourceTree = "<group>"; };
-		F2BD7F241A95C66D00035453 /* NeuLynx87x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NeuLynx87x87.png; path = ../../../Dropbox/iOSNeuLynxItems/NeuLynx87x87.png; sourceTree = "<group>"; };
-		F2BD7F251A95C66D00035453 /* NeuLynx120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NeuLynx120x120.png; path = ../../../Dropbox/iOSNeuLynxItems/NeuLynx120x120.png; sourceTree = "<group>"; };
-		F2BD7F261A95C66D00035453 /* NeuLynx152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NeuLynx152x152.png; path = ../../../Dropbox/iOSNeuLynxItems/NeuLynx152x152.png; sourceTree = "<group>"; };
-		F2BD7F271A95C66D00035453 /* NeuLynx180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NeuLynx180x180.png; path = ../../../Dropbox/iOSNeuLynxItems/NeuLynx180x180.png; sourceTree = "<group>"; };
-		F2BD7F281A95C66D00035453 /* NeuLynxIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NeuLynxIcon.png; path = ../../../Dropbox/iOSNeuLynxItems/NeuLynxIcon.png; sourceTree = "<group>"; };
 		F2BD7F341A95CCB000035453 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		F2BD7F361A95CDD300035453 /* NeuLynx-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NeuLynx-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		F2BD7F391A95CFFA00035453 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A5FA9B1AA6D83000E1ECA5 /* MapKit.framework in Frameworks */,
 				F2BD7F541A95D10000035453 /* libsqlite3.dylib in Frameworks */,
 				F2BD7F521A95D0F600035453 /* libz.dylib in Frameworks */,
 				F2BD7F501A95D0EC00035453 /* SystemConfiguration.framework in Frameworks */,
@@ -191,6 +194,7 @@
 		F2BD7EEC1A95C3A600035453 = {
 			isa = PBXGroup;
 			children = (
+				F2A5FA9A1AA6D83000E1ECA5 /* MapKit.framework */,
 				F2BD7F531A95D10000035453 /* libsqlite3.dylib */,
 				F2BD7F511A95D0F600035453 /* libz.dylib */,
 				F2BD7F4F1A95D0EC00035453 /* SystemConfiguration.framework */,
@@ -293,18 +297,18 @@
 				F23D53341A97FA7000B22736 /* Slongan.png */,
 				F23D53361A97FB4A00B22736 /* FeelLikeALocalLogo.png */,
 				F2BD7F551A95DD5200035453 /* launchScreen.png */,
+				F2A5FAA81AA7AB2900E1ECA5 /* NeuLynx29x29.png */,
+				F2A5FAA91AA7AB2900E1ECA5 /* NeuLynx40x40.png */,
+				F2A5FAAA1AA7AB2900E1ECA5 /* NeuLynx58x58.png */,
+				F2A5FAAB1AA7AB2900E1ECA5 /* NeuLynx60x60.png */,
+				F2A5FAAC1AA7AB2900E1ECA5 /* NeuLynx76x76.png */,
+				F2A5FAAD1AA7AB2900E1ECA5 /* NeuLynx80x80.png */,
+				F2A5FAAE1AA7AB2900E1ECA5 /* NeuLynx87x87.png */,
+				F2A5FAAF1AA7AB2900E1ECA5 /* NeuLynx114x114.png */,
+				F2A5FAB01AA7AB2900E1ECA5 /* NeuLynx120x120.png */,
+				F2A5FABC1AA7B2C900E1ECA5 /* NeuLynx152x152.png */,
+				F2A5FAB11AA7AB2900E1ECA5 /* NeuLynx180x180.png */,
 				F23D53321A97F21900B22736 /* NeulynxLogo.png */,
-				F2BD7F1E1A95C66D00035453 /* NeuLynx29x29.png */,
-				F2BD7F1F1A95C66D00035453 /* NeuLynx40x40.png */,
-				F2BD7F201A95C66D00035453 /* NeuLynx58x58.png */,
-				F2BD7F211A95C66D00035453 /* NeuLynx60x60.png */,
-				F2BD7F221A95C66D00035453 /* NeuLynx76x76.png */,
-				F2BD7F231A95C66D00035453 /* NeuLynx80x80.png */,
-				F2BD7F241A95C66D00035453 /* NeuLynx87x87.png */,
-				F2BD7F251A95C66D00035453 /* NeuLynx120x120.png */,
-				F2BD7F261A95C66D00035453 /* NeuLynx152x152.png */,
-				F2BD7F271A95C66D00035453 /* NeuLynx180x180.png */,
-				F2BD7F281A95C66D00035453 /* NeuLynxIcon.png */,
 				F23D53401A98743100B22736 /* backBackground.png */,
 				F23D53301A97F08B00B22736 /* cityBackground.png */,
 			);
@@ -392,46 +396,46 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2BD7F301A95C66D00035453 /* NeuLynx120x120.png in Resources */,
 				F23D532B1A95E56900B22736 /* 1.png in Resources */,
+				F2A5FAB61AA7AB2900E1ECA5 /* NeuLynx76x76.png in Resources */,
+				F2A5FABB1AA7AB2900E1ECA5 /* NeuLynx180x180.png in Resources */,
 				F23D53601A99735B00B22736 /* nightout.png in Resources */,
-				F2BD7F2F1A95C66D00035453 /* NeuLynx87x87.png in Resources */,
+				F2A5FAB51AA7AB2900E1ECA5 /* NeuLynx60x60.png in Resources */,
 				F23D533D1A980C4E00B22736 /* FacebookButton.png in Resources */,
 				F23D53371A97FB4A00B22736 /* FeelLikeALocalLogo.png in Resources */,
 				F23D53451A9877A500B22736 /* defaultimage.png in Resources */,
+				F2A5FABD1AA7B2C900E1ECA5 /* NeuLynx152x152.png in Resources */,
 				F2BD7F561A95DD5200035453 /* launchScreen.png in Resources */,
-				F2BD7F2D1A95C66D00035453 /* NeuLynx76x76.png in Resources */,
+				F2A5FAB81AA7AB2900E1ECA5 /* NeuLynx87x87.png in Resources */,
 				F23D535F1A99735B00B22736 /* gastronomy.png in Resources */,
 				F23D535E1A99735B00B22736 /* festival.png in Resources */,
+				F2A5FAB71AA7AB2900E1ECA5 /* NeuLynx80x80.png in Resources */,
 				F23D532D1A95E56900B22736 /* 3.png in Resources */,
 				F23D533B1A980BE700B22736 /* LoginButton.png in Resources */,
-				F2BD7F2E1A95C66D00035453 /* NeuLynx80x80.png in Resources */,
 				F23D532C1A95E56900B22736 /* 2.png in Resources */,
 				F23D53311A97F08B00B22736 /* cityBackground.png in Resources */,
+				F2A5FAB91AA7AB2900E1ECA5 /* NeuLynx114x114.png in Resources */,
+				F2A5FAB21AA7AB2900E1ECA5 /* NeuLynx29x29.png in Resources */,
 				F23D532E1A95E56900B22736 /* 4.png in Resources */,
+				F2A5FABA1AA7AB2900E1ECA5 /* NeuLynx120x120.png in Resources */,
 				F23D53511A99485F00B22736 /* editbutton.png in Resources */,
-				F2BD7F291A95C66D00035453 /* NeuLynx29x29.png in Resources */,
 				F23D534A1A98A98100B22736 /* cancel.png in Resources */,
-				F2BD7F2C1A95C66D00035453 /* NeuLynx60x60.png in Resources */,
 				F2BD7F031A95C3A700035453 /* Main.storyboard in Resources */,
 				F23D532A1A95E56900B22736 /* 0.png in Resources */,
 				F23D53331A97F21900B22736 /* NeulynxLogo.png in Resources */,
 				F23D53391A980BDE00B22736 /* RegisterButton.png in Resources */,
-				F2BD7F2B1A95C66D00035453 /* NeuLynx58x58.png in Resources */,
 				F23D53411A98743100B22736 /* backBackground.png in Resources */,
 				F23D53351A97FA7000B22736 /* Slongan.png in Resources */,
+				F2A5FAB31AA7AB2900E1ECA5 /* NeuLynx40x40.png in Resources */,
 				F23D53431A98777E00B22736 /* PictureCircle.png in Resources */,
-				F2BD7F331A95C66D00035453 /* NeuLynxIcon.png in Resources */,
-				F2BD7F311A95C66D00035453 /* NeuLynx152x152.png in Resources */,
 				F23D53471A98A55700B22736 /* or.png in Resources */,
 				F2BD7F081A95C3A700035453 /* LaunchScreen.xib in Resources */,
 				F2BD7F051A95C3A700035453 /* Images.xcassets in Resources */,
 				F23D534B1A98A98100B22736 /* next.png in Resources */,
 				F23D532F1A95E56900B22736 /* 5.png in Resources */,
-				F2BD7F321A95C66D00035453 /* NeuLynx180x180.png in Resources */,
-				F2BD7F2A1A95C66D00035453 /* NeuLynx40x40.png in Resources */,
 				F23D53611A99735B00B22736 /* outdoors.png in Resources */,
 				F23D535D1A99735B00B22736 /* cultural.png in Resources */,
+				F2A5FAB41AA7AB2900E1ECA5 /* NeuLynx58x58.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
