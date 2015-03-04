@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7515.2" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7BH-5M-X7C">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7515.2" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7512"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -1064,13 +1064,13 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                                     <action selector="editGenderButtonPressed:" destination="yvO-hQ-1zI" eventType="touchUpInside" id="9dM-n0-AUG"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v38-J0-Ia6">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v38-J0-Ia6">
                                 <rect key="frame" x="83" y="410" width="225" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHj-7h-ibQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHj-7h-ibQ">
                                 <rect key="frame" x="83" y="388" width="225" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="r5L-wI-yMG"/>
@@ -1095,19 +1095,19 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Js-AZ-jPV">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Js-AZ-jPV">
                                 <rect key="frame" x="84" y="275" width="225" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADl-5y-4rb">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADl-5y-4rb">
                                 <rect key="frame" x="83" y="250" width="225" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dTL-QT-cBV">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dTL-QT-cBV">
                                 <rect key="frame" x="83" y="224" width="225" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1200,7 +1200,7 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZrQ-Qw-E9w">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZrQ-Qw-E9w">
                                 <rect key="frame" x="84" y="198" width="260" height="25"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1243,21 +1243,21 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                                     <action selector="nextButtonPressed:" destination="yvO-hQ-1zI" eventType="touchUpInside" id="vgi-rs-CaS"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0.png" translatesAutoresizingMaskIntoConstraints="NO" id="gl5-L6-R8z">
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0.png" translatesAutoresizingMaskIntoConstraints="NO" id="gl5-L6-R8z">
                                 <rect key="frame" x="83" y="300" width="25" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="3y4-hX-mpd"/>
                                     <constraint firstAttribute="width" constant="25" id="t4R-1Y-rcN"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="T8X-Ib-UwA">
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="T8X-Ib-UwA">
                                 <rect key="frame" x="116" y="300" width="25" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="5g3-Fz-eZ8"/>
                                     <constraint firstAttribute="width" constant="25" id="Qi3-Qx-Bmk"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Uu-P8-ii9">
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Uu-P8-ii9">
                                 <rect key="frame" x="183" y="300" width="25" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="25" id="4TC-I2-le4"/>
@@ -1266,25 +1266,32 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="25" id="jd1-Gf-mpk"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2.png" translatesAutoresizingMaskIntoConstraints="NO" id="azo-RG-Oc2">
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2.png" translatesAutoresizingMaskIntoConstraints="NO" id="azo-RG-Oc2">
                                 <rect key="frame" x="149" y="300" width="25" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="ubN-eT-Wx5"/>
                                     <constraint firstAttribute="width" constant="25" id="zzq-dm-KIq"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4.png" translatesAutoresizingMaskIntoConstraints="NO" id="qQc-NS-PQG">
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4.png" translatesAutoresizingMaskIntoConstraints="NO" id="qQc-NS-PQG">
                                 <rect key="frame" x="216" y="300" width="25" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="25" id="Ebt-X9-ekX"/>
                                     <constraint firstAttribute="height" constant="25" id="Gti-RS-tIb"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5.png" translatesAutoresizingMaskIntoConstraints="NO" id="EEJ-LD-gDf">
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5.png" translatesAutoresizingMaskIntoConstraints="NO" id="EEJ-LD-gDf">
                                 <rect key="frame" x="249" y="300" width="25" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="25" id="1Ju-il-56L"/>
                                     <constraint firstAttribute="height" constant="25" id="aHY-7a-G1X"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NeulynxLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="8ei-3K-9Xz">
+                                <rect key="frame" x="172" y="606" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="mqT-SN-PrZ"/>
+                                    <constraint firstAttribute="height" constant="70" id="ywi-jZ-Paz"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -1309,6 +1316,7 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                             <constraint firstItem="7pd-8H-Dzj" firstAttribute="trailing" secondItem="8Tw-7s-ZS0" secondAttribute="trailing" id="7K2-p1-cP1"/>
                             <constraint firstItem="Agy-35-tgL" firstAttribute="leading" secondItem="tE7-pg-sTS" secondAttribute="leading" id="7sI-EC-1O0"/>
                             <constraint firstItem="7Js-AZ-jPV" firstAttribute="bottom" secondItem="yBa-sd-UcC" secondAttribute="bottom" id="7tK-8S-HBA"/>
+                            <constraint firstItem="Ioa-Ef-3G7" firstAttribute="top" secondItem="8ei-3K-9Xz" secondAttribute="bottom" constant="94" id="8ii-0H-tbH"/>
                             <constraint firstItem="owN-1d-QXL" firstAttribute="centerX" secondItem="s2Q-ka-fsy" secondAttribute="centerX" id="9Oc-Zj-cfk"/>
                             <constraint firstItem="EAn-4r-FyQ" firstAttribute="bottom" secondItem="Ioa-Ef-3G7" secondAttribute="top" id="A7J-r9-Xtg"/>
                             <constraint firstItem="tE7-pg-sTS" firstAttribute="leading" secondItem="ZrQ-Qw-E9w" secondAttribute="trailing" constant="29" id="Akw-oq-28J"/>
@@ -1318,9 +1326,11 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                             <constraint firstItem="EAn-4r-FyQ" firstAttribute="centerX" secondItem="s2Q-ka-fsy" secondAttribute="centerX" id="COP-Mw-Fmf"/>
                             <constraint firstItem="fk8-lp-a8l" firstAttribute="top" secondItem="o8R-RA-3JG" secondAttribute="top" id="DSX-Nz-z75"/>
                             <constraint firstItem="azo-RG-Oc2" firstAttribute="leading" secondItem="T8X-Ib-UwA" secondAttribute="trailing" constant="8" id="DbN-md-yGc"/>
+                            <constraint firstItem="8ei-3K-9Xz" firstAttribute="top" secondItem="v38-J0-Ia6" secondAttribute="bottom" constant="161" id="E4s-33-0Yx"/>
                             <constraint firstItem="ADl-5y-4rb" firstAttribute="leading" secondItem="lHj-7h-ibQ" secondAttribute="leading" id="Emf-vy-4Vu"/>
                             <constraint firstItem="s2Q-ka-fsy" firstAttribute="top" secondItem="4Gk-ax-iio" secondAttribute="bottom" constant="8" symbolic="YES" id="FBq-JZ-aCo"/>
                             <constraint firstItem="Agy-35-tgL" firstAttribute="leading" secondItem="dTL-QT-cBV" secondAttribute="trailing" constant="65" id="Fcf-8U-4Ux"/>
+                            <constraint firstAttribute="centerX" secondItem="8ei-3K-9Xz" secondAttribute="centerX" id="FfU-bo-kR6"/>
                             <constraint firstItem="tE7-pg-sTS" firstAttribute="top" secondItem="fzb-nq-psQ" secondAttribute="bottom" constant="178" id="GyU-rI-qxX"/>
                             <constraint firstAttribute="trailingMargin" secondItem="tE7-pg-sTS" secondAttribute="trailing" constant="10" id="HA8-cl-rSX"/>
                             <constraint firstItem="4Gk-ax-iio" firstAttribute="top" secondItem="owN-1d-QXL" secondAttribute="top" id="HTh-mU-UFR"/>
@@ -1331,6 +1341,7 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                             <constraint firstItem="dTL-QT-cBV" firstAttribute="top" secondItem="Agy-35-tgL" secondAttribute="top" id="KXu-1t-itG"/>
                             <constraint firstItem="EAn-4r-FyQ" firstAttribute="top" secondItem="kyw-Gh-XDg" secondAttribute="top" id="LT7-g4-AQZ"/>
                             <constraint firstItem="7db-Qq-g2n" firstAttribute="leading" secondItem="kyw-Gh-XDg" secondAttribute="leadingMargin" constant="78" id="LUK-Yx-0HW"/>
+                            <constraint firstAttribute="centerX" secondItem="8ei-3K-9Xz" secondAttribute="centerX" id="Lba-sm-Rjm"/>
                             <constraint firstItem="7pd-8H-Dzj" firstAttribute="top" secondItem="ADl-5y-4rb" secondAttribute="top" id="LlY-3A-7nl"/>
                             <constraint firstItem="ADl-5y-4rb" firstAttribute="top" secondItem="dTL-QT-cBV" secondAttribute="bottom" constant="5" id="LyS-Sq-F3e"/>
                             <constraint firstItem="owN-1d-QXL" firstAttribute="top" secondItem="fzb-nq-psQ" secondAttribute="bottom" id="M28-uk-f4T"/>
@@ -1356,6 +1367,8 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                             <constraint firstItem="8Tw-7s-ZS0" firstAttribute="top" secondItem="7pd-8H-Dzj" secondAttribute="bottom" constant="11" id="Xp4-c9-shb"/>
                             <constraint firstItem="ZrQ-Qw-E9w" firstAttribute="top" secondItem="s2Q-ka-fsy" secondAttribute="bottom" id="Ye7-zB-E1P"/>
                             <constraint firstItem="0Uu-P8-ii9" firstAttribute="top" secondItem="7Js-AZ-jPV" secondAttribute="bottom" constant="4" id="ZPq-Y8-kdi"/>
+                            <constraint firstItem="8ei-3K-9Xz" firstAttribute="top" secondItem="v38-J0-Ia6" secondAttribute="bottom" constant="152" id="ZdD-DJ-bTU"/>
+                            <constraint firstItem="8ei-3K-9Xz" firstAttribute="top" secondItem="EAn-4r-FyQ" secondAttribute="bottom" constant="-130" id="ah0-K1-NIq"/>
                             <constraint firstItem="ADl-5y-4rb" firstAttribute="leading" secondItem="ACb-PW-pgg" secondAttribute="trailing" constant="1" id="apo-k2-tCG"/>
                             <constraint firstItem="tTq-aj-twu" firstAttribute="top" secondItem="fzb-nq-psQ" secondAttribute="bottom" constant="180" id="b1E-HX-Kxd"/>
                             <constraint firstItem="LtO-dI-dDy" firstAttribute="top" secondItem="8Tw-7s-ZS0" secondAttribute="bottom" constant="11" id="bDG-mv-17U"/>
@@ -1405,19 +1418,29 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
                                 <exclude reference="qxg-BB-8nF"/>
                                 <exclude reference="tHT-l4-vGC"/>
                                 <exclude reference="1D6-en-zZ6"/>
+                                <exclude reference="E4s-33-0Yx"/>
+                                <exclude reference="Lba-sm-Rjm"/>
+                                <exclude reference="ZdD-DJ-bTU"/>
+                                <exclude reference="8ii-0H-tbH"/>
                             </mask>
                         </variation>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
+                        <outlet property="chinese" destination="0Uu-P8-ii9" id="Va3-9d-WCL"/>
+                        <outlet property="english" destination="gl5-L6-R8z" id="SwM-sc-cYb"/>
                         <outlet property="fact1Label" destination="lHj-7h-ibQ" id="GF9-pe-zGK"/>
                         <outlet property="fact2Label" destination="v38-J0-Ia6" id="GqU-9a-tll"/>
+                        <outlet property="french" destination="azo-RG-Oc2" id="htF-QI-rqR"/>
                         <outlet property="genderLabel" destination="dTL-QT-cBV" id="czc-Ik-dMg"/>
+                        <outlet property="german" destination="EEJ-LD-gDf" id="I3o-lf-HIo"/>
                         <outlet property="nameLabel" destination="ZrQ-Qw-E9w" id="NuX-Ap-4aU"/>
                         <outlet property="orientationLabel" destination="ADl-5y-4rb" id="ai2-Yg-7GV"/>
                         <outlet property="personalityLabel" destination="7Js-AZ-jPV" id="RGS-fz-T1B"/>
+                        <outlet property="portuguese" destination="qQc-NS-PQG" id="Bvn-xo-hru"/>
                         <outlet property="profileImage" destination="4Gk-ax-iio" id="kQj-Dw-jjf"/>
+                        <outlet property="spanish" destination="T8X-Ib-UwA" id="iMR-jv-6Lx"/>
                         <segue destination="BYZ-38-t0r" kind="presentation" identifier="jumpBackToMainScreen" modalTransitionStyle="crossDissolve" id="QeQ-y0-leu"/>
                         <segue destination="MA8-LB-ro9" kind="presentation" identifier="jumpToMap" modalTransitionStyle="crossDissolve" id="DyJ-DM-xTw"/>
                         <segue destination="7BH-5M-X7C" kind="presentation" identifier="jumpToLanguages" modalTransitionStyle="crossDissolve" id="MI2-Q3-ylP"/>
@@ -1579,7 +1602,7 @@ or your dealings with the Service, you can contact us at support@neulynx.com.</s
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="DyJ-DM-xTw"/>
-        <segue reference="auq-4u-GxK"/>
+        <segue reference="UEK-1j-SUb"/>
         <segue reference="QeQ-y0-leu"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>

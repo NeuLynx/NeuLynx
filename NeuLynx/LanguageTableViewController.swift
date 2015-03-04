@@ -4,6 +4,9 @@ class LanguageTableViewController: UITableViewController {
     
     var languages = ["English", "Spanish", "French", "Chinese", "Portuguese", "German"]
     
+    var lang = [false, false, false, false, false, false]
+
+    
     @IBAction func doneButtonPressed(sender: AnyObject) {
         
         self.performSegueWithIdentifier("backToUserProfile", sender: self)
@@ -48,7 +51,7 @@ class LanguageTableViewController: UITableViewController {
     
     cell.textLabel?.text = languages[indexPath.row]
         var image : UIImage = UIImage(named: "\(indexPath.row).png")!
-        println("The loaded image: \(image)")
+        
         cell.imageView?.image = image
     
     return cell
@@ -60,10 +63,18 @@ class LanguageTableViewController: UITableViewController {
         
         if cell.accessoryType == UITableViewCellAccessoryType.Checkmark {
             cell.accessoryType = UITableViewCellAccessoryType.None
+            lang[indexPath.row] = false
             
         }else{
         cell.accessoryType = UITableViewCellAccessoryType.Checkmark
+            lang[indexPath.row] = true
         }
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        var ProfileVC: UserProfileViewController = segue.destinationViewController as! UserProfileViewController
+        ProfileVC.languageSelected = lang
+
     }
 
     

@@ -50,10 +50,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         currentInstallation.setDeviceTokenFromData(deviceToken)
         currentInstallation.save()
         
-        println("success")
+       
     }
     func application(application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: NSError) {
-        println("fail")
+        
     }
 
     func applicationWillResignActive(application: UIApplication) {

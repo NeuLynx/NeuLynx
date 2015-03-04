@@ -28,6 +28,26 @@ class UserProfileViewController: UIViewController {
     
     @IBOutlet weak var fact2Label: UILabel!
     
+    //LanguageSelected is to keep track of which languages the user selected to make it easier to display.
+    
+    var languageSelected:[Bool] = [false, false, false, false, false, false]
+    //languages is the actual array that will be saved to parse.
+    var languages: [String] = []
+    
+    
+    @IBOutlet weak var english: UIImageView!
+    
+    @IBOutlet weak var spanish: UIImageView!
+    
+    @IBOutlet weak var french: UIImageView!
+    
+    @IBOutlet weak var chinese: UIImageView!
+    
+    @IBOutlet weak var portuguese: UIImageView!
+    
+    @IBOutlet weak var german: UIImageView!
+    
+    
     @IBAction func
         
         editProfilePictureButtonPressed(sender: AnyObject) {
@@ -301,12 +321,34 @@ class UserProfileViewController: UIViewController {
     
     
     @IBAction func nextButtonPressed(sender: AnyObject) {
+        
+        
+         var user = PFUser.currentUser()
+        
+        user["gender"] = genderLabel.text
+        user["name"] =  nameLabel.text
+        user["orientation"] = orientationLabel.text
+        user["personality"] = personalityLabel.text
+        user["languages"] = languages
+        user["typeOfTraveler1"] = fact1Label.text
+        user["typeOfTraveler2"] = fact2Label.text
+        
+        user.save()
+        
+        
         self.performSegueWithIdentifier("jumpToMap", sender: self)
+        
+        
     }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+            
+        
+        
         
        //define the parse user
         var user = PFUser.currentUser()
@@ -342,11 +384,9 @@ class UserProfileViewController: UIViewController {
             
             FBRequestConnection.startForMeWithCompletionHandler({
                 connection, result, error in
-                
-                user["gender"] = result["gender"]
-                user["name"] = result["name"]
-                self.nameLabel.text = user["name"] as? String
-                self.genderLabel.text = user["gender"] as? String
+            
+                self.nameLabel.text = result["name"] as? String
+                self.genderLabel.text = result["gender"] as? String
                
             })
             
@@ -361,6 +401,50 @@ class UserProfileViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    override func viewDidAppear(animated: Bool) {
+        
+        if languageSelected[0] == true{
+            english.alpha = 1.0
+            languages.append("English")
+            
+        } else if languageSelected[0] == false {
+            english.alpha = 0.1
+        }
+        
+        
+        if languageSelected[1] == true{
+            spanish.alpha = 1.0
+            languages.append("Spanish")
+            
+        } else if languageSelected[1] == false {
+            spanish.alpha = 0.1
+        }
+        
+        if languageSelected[2] == true {
+            french.alpha = 1.0
+             languages.append("French")
+        }
+        
+        if languageSelected[3] == true {
+            chinese.alpha = 1.0
+             languages.append("Chinese")
+        }
+        if languageSelected[4] == true{
+            portuguese.alpha = 1.0
+             languages.append("Portuguese")
+        }
+        if languageSelected[5] == true {
+            german.alpha = 1.0
+            
+            languages.append("German")
+        }
+        
+        for element in languages {
+            println(element)
+        }
+     
+        
     }
     
 

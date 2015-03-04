@@ -166,10 +166,6 @@ class ViewController: UIViewController {
         
        
         
-        if PFUser.currentUser() != nil {
-            println("USER IS LOGGED IN!!")
-        }
-        
         
         
         
